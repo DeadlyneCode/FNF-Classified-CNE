@@ -1,0 +1,21 @@
+<!DOCTYPE codename-engine-character>
+<character isPlayer="true" x="210" y="310" camx="110" camy="-100" flipX="true" icon="bf" color="#31B0D1" scale="1.2" sprite="L_BF-1">
+	<anim name="idle" anim="BF idle dance" fps="24" loop="false" x="-5" y="0"/>
+	<anim name="singLEFT" anim="BF NOTE LEFT0" fps="24" loop="false" x="5" y="-8"/>
+	<anim name="singDOWN" anim="BF NOTE DOWN0" fps="24" loop="false" x="-18" y="-66"/>
+	<anim name="singUP" anim="BF NOTE UP0" fps="24" loop="false" x="-57" y="36"/>
+	<anim name="singRIGHT" anim="BF NOTE RIGHT0" fps="24" loop="false" x="-54" y="-7"/>
+	<anim name="singLEFTmiss" anim="BF NOTE LEFT MISS" fps="24" loop="false" x="7" y="23"/>
+	<anim name="singDOWNmiss" anim="BF NOTE DOWN MISS" fps="24" loop="false" x="-24" y="-30"/>
+	<anim name="singUPmiss" anim="BF NOTE UP MISS" fps="24" loop="false" x="-56" y="33"/>
+	<anim name="singRIGHTmiss" anim="BF NOTE RIGHT MISS" fps="24" loop="false" x="-48" y="24"/>
+	<anim name="hey" anim="BF HEY" fps="24" loop="false" x="-3" y="5"/>
+	<anim name="hurt" anim="BF hit" fps="24" loop="false" x="15" y="18"/>
+	<anim name="scared" anim="BF idle shaking" fps="24" loop="true" x="-4" y="0"/>
+	<anim name="firstDeath" anim="BF dies" fps="24" loop="false" x="23" y="6"/>
+	<anim name="deathLoop" anim="BF Dead Loop" fps="24" loop="true" x="25" y="-1"/>
+	<anim name="deathConfirm" anim="BF Dead confirm" fps="24" loop="false" x="25" y="76"/>
+	<anim name="dodge" anim="boyfriend dodge" fps="24" loop="false" x="-10" y="-16"/>
+	<anim name="attack" anim="boyfriend attack" fps="24" loop="false" x="294" y="267"/>
+	<anim name="pre-attack" anim="bf pre attack" fps="24" loop="false" x="-40" y="-40"/>
+</character>
