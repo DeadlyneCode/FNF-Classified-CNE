@@ -1,5 +1,5 @@
 import funkin.game.Character;
-var chars:Array<String>= ["gf night", "bfnight stage", "dad night"];
+var chars:Array<String>= ["luigivoiceline", "luigiUnderwater", "L_BF"];
 var char:Array<Character>=[];
 var icon:Array<HealthIcon>=[];
 var preload:Character;
@@ -14,11 +14,11 @@ function create() {
 
 function stepHit(curStep:Int){
 	switch(curStep){
-		case 134:
-			FlxG.camera.flash(0xFFFFFFFF,3);
-			change_dad('dad night');
-			change_gf('gf night');
-			change_bf('bfnight stage');
+		case 1039:
+			change_dad('luigivoiceline');
+		case 1055:
+			change_dad('luigiUnderwater');
+			change_bf('L_BF');
 	}
 }
 

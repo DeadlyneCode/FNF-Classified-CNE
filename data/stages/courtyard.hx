@@ -80,3 +80,21 @@ function create() {
     add(gf);
     add(boyfriend);
 }
+
+function stepHit(curStep:Int){
+	switch(curStep){
+		case 1040:
+			dad.animation.play("VoiceLine");
+		case 1055:
+			wellF.visible = false;
+			sky.visible = true;
+			backRock.visible = true;
+			flags.visible = true;
+			ship.visible = true;
+			overRockShip.visible = true;
+			walRocks.visible = true;
+			depths.visible = true;
+			foreRocks.visible = true;
+			gf.visible = false;
+	}
+}
