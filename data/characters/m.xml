@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-70" y="30" holdTime="6.6" camx="-80" camy="90" icon="M" color="#000000" antialiasing="true" sprite="M_spritez_backup">
+	<anim name="singLEFT" anim="left_pose" fps="24" loop="false" x="373" y="119"/>
+	<anim name="singDOWN" anim="down_pose" fps="24" loop="false" x="285" y="166"/>
+	<anim name="singUP" anim="up_pose" fps="24" loop="false" x="370" y="518"/>
+	<anim name="singRIGHT" anim="right_pose" fps="24" loop="false" x="86" y="66"/>
+	<anim name="idle" anim="M idol" fps="24" loop="true" x="0" y="0"/>
+</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="150" y="330" camx="-200" camy="-220" color="#FFE841" sprite="wariohead">
+	<anim name="singLEFT" anim="left" fps="24" loop="false" x="235" y="354"/>
+	<anim name="singDOWN" anim="Down" fps="24" loop="false" x="40" y="250"/>
+	<anim name="singRIGHT" anim="right" fps="24" loop="false" x="62" y="383"/>
+	<anim name="idle" anim="idle" fps="24" loop="false" x="35" y="316"/>
+	<anim name="singUP" anim="up" fps="24" loop="false" x="101" y="497"/>
+</character>

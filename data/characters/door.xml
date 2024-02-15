@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character x="-100" y="240" camx="-847" camy="-620" icon="shroudBf" color="#000000" scale="4" antialiasing="true" sprite="Door">
+	<anim name="firstDeath" anim="Door Appear" fps="12" loop="false" x="0" y="0"/>
+	<anim name="deathLoop" anim="Door idle" fps="12" loop="false" x="0" y="0"/>
+	<anim name="deathConfirm" anim="Door Open" fps="12" loop="false" x="0" y="0"/>
+</character>

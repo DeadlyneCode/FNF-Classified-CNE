@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character isGF="true" x="-230" y="-180" camx="10" camy="400" icon="gf" color="#A5004D" scale="0.6" sprite="3DGF">
+	<anim name="danceLeft" anim="3DGF GF Idle Left" fps="30" loop="false" x="-16" y="-139" indices="30,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14"/>
+	<anim name="danceRight" anim="3DGF GF Idle Left" fps="30" loop="false" x="-16" y="-139" indices="15,16,17,18,19,20,21,22,23,24,25,26,27,28,29"/>
+	<anim name="rightTurn" anim="3DGF GF Turn Left" fps="30" loop="false" x="-16" y="-138"/>
+	<anim name="leftTurn" anim="3DGF GF Turn Right" fps="30" loop="false" x="-16" y="-139"/>
+	<anim name="danceRight-alt" anim="3DGF GF Idle Right" fps="30" loop="false" x="-16" y="-139" indices="15,16,17,18,19,20,21,22,23,24,25,26,27,28,29"/>
+	<anim name="danceLeft-alt" anim="3DGF GF Idle Right" fps="30" loop="false" x="-16" y="-139" indices="30,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14"/>
+</character>

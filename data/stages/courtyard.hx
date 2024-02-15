@@ -1,3 +1,6 @@
+import flixel.effects.particles.FlxEmitter;
+import flixel.effects.particles.FlxParticle;
+
 function create() {
 
 	remove(dad);
@@ -65,6 +68,65 @@ function create() {
 
 	foreRocks = new FlxSprite(-1350, -480).loadGraphic(Paths.image("stages/courtyard/frontrocks"));
 	foreRocks.scrollFactor.set(0.8, 0.8);
+
+	bubbleEmitter = new FlxEmitter(-1200, 1000);
+
+	for (i in 0 ... 500)
+       		 	{
+		var p = new FlxParticle();
+		p.loadGraphic(Paths.image("bubble"));
+		p.scale.set(0.2, 0.2);
+        // p.exists = false;
+        bubbleEmitter.add(p);
+        		}
+	bubbleEmitter.launchMode = FlxEmitterMode.SQUARE;
+	bubbleEmitter.velocity.set(-50, -400, 50, -800, -100, 0, 100, -800);
+	bubbleEmitter.scale.set(0.05, 0.05, 0.06, 0.06, 0, 0, 0, 0);
+	bubbleEmitter.drag.set(0, 0, 0, 0, 5, 5, 10, 10);
+	bubbleEmitter.width = 4200.45;
+	bubbleEmitter.alpha.set(1, 1);
+	bubbleEmitter.lifespan.set(4, 4.5);
+	// bubbleEmitter.cameras = [camHUD];
+	// SONICADVENTURE2BITCHHHHH
+
+	bubbleEmitter.start(false, FlxG.random.float(0.05, 0.35), 1000000);
+	bubbleEmitter.emitting = false;
+
+	SONICADVENTURE2BITCHHHHH = new FlxEmitter(-1200, 1000);
+
+	for (i in 0 ... 500)
+       		 	{
+		var p = new FlxParticle();
+		p.loadGraphic(Paths.image("bubble"));
+		p.scale.set(0.2, 0.2);
+        // p.exists = false;
+        SONICADVENTURE2BITCHHHHH.add(p);
+        		}
+	SONICADVENTURE2BITCHHHHH.launchMode = FlxEmitterMode.SQUARE;
+	SONICADVENTURE2BITCHHHHH.velocity.set(-50, -400, 50, -800, -100, 0, 100, -800);
+	SONICADVENTURE2BITCHHHHH.scale.set(0.075, 0.075, 0.1, 0.1, 0, 0, 0, 0);
+	SONICADVENTURE2BITCHHHHH.drag.set(0, 0, 0, 0, 5, 5, 10, 10);
+	SONICADVENTURE2BITCHHHHH.width = 4200.45;
+	SONICADVENTURE2BITCHHHHH.alpha.set(1, 1);
+	SONICADVENTURE2BITCHHHHH.lifespan.set(4, 4.5);
+	SONICADVENTURE2BITCHHHHH.cameras = [camHUD];
+	// SONICADVENTURE2BITCHHHHH
+
+	SONICADVENTURE2BITCHHHHH.start(false, 0.005, 1000000);
+	SONICADVENTURE2BITCHHHHH.emitting = false;
+	trace("COCK");
+
+	fart = new WateryShader();
+	filter = new ShaderFilter(fart.shader);
+
+	poopbrah = new FlxSprite().makeGraphic(1280, 720, FlxColor.WHITE);
+	poopbrah.cameras =[camHUD];
+	poopbrah.alpha = 0;
+	add(poopbrah);
+
+	blackScreen = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
+	blackScreen.scrollFactor.set();
+	blackScreen.cameras = [camOther];
 
 	sky.visible = false;
 	backRock.visible = false;

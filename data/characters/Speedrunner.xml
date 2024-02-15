@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="-240" y="60" holdTime="6.1" camx="190" camy="300" icon="speedrunner" color="#FF0000" scale="0.8" sprite="speedrunnerMario">
+	<anim name="idle" anim="speedrunner idle" fps="24" loop="false" x="-120" y="-160"/>
+	<anim name="singLEFT" anim="speedrunner left" fps="24" loop="false" x="143" y="-159"/>
+	<anim name="singDOWN" anim="speedrunner down" fps="24" loop="false" x="44" y="-171"/>
+	<anim name="singUP" anim="speedrunner up" fps="24" loop="false" x="-112" y="105"/>
+	<anim name="singRIGHT" anim="speedrunner right" fps="24" loop="false" x="-230" y="-97"/>
+	<anim name="spazz" anim="speedrunner spazz" fps="24" loop="false" x="792" y="211"/>
+</character>

@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character isPlayer="true" x="-10" y="220" camx="-170" camy="60" flipX="true" icon="bf" color="#31B0D1" scale="0.65" sprite="HeOnTheRun">
+	<anim name="idle" anim="bf siderun" fps="24" loop="false" x="-5" y="0" indices="130"/>
+	<anim name="escape" anim="bf siderun" fps="24" loop="false" x="-5" y="0"/>
+</character>

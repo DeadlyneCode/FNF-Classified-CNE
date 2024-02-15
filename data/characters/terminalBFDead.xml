@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character isPlayer="true" y="250" camx="-70" camy="110" flipX="true" icon="speedBoy" color="#31B0BD" sprite="bf dies">
+	<anim name="deathLoop" anim="BF diess" fps="24" loop="true" x="-30" y="-12" indices="17"/>
+	<anim name="deathConfirm" anim="BF diess" fps="24" loop="false" x="-26" y="-12" indices="17"/>
+	<anim name="firstDeath" anim="BF diess" fps="24" loop="false" x="0" y="0"/>
+</character>

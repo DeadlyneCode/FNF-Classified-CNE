@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-20" icon="icon-luigi" camx="-140" y="250" isGF="false" camy="-90" color="#29B679" isPlayer="false" sprite="SadWeegus">
+	<anim x="-55" loop="false" y="86" fps="24" anim="luigeidle" name="idle"/>
+	<anim x="-40" loop="false" y="106" fps="24" anim="DownLuige" name="singDOWN"/>
+	<anim x="14" loop="false" y="170" fps="24" anim="LeftLuige" name="singLEFT"/>
+	<anim x="-24" loop="false" y="351" fps="24" anim="UpLuige" name="singUP"/>
+	<anim x="-132" loop="false" y="43" fps="24" anim="RightLuige" name="singRIGHT"/>
+</character>

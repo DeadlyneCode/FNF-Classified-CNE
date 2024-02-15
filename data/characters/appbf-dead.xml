@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character isPlayer="true" y="400" flipX="true" icon="bf" color="#31B0D1" scale="0.6" sprite="appbfDIES">
+	<anim name="deathLoop" anim="bf gameover loop" fps="24" loop="true" x="37" y="30"/>
+	<anim name="deathConfirm" anim="bf gameover loop" fps="24" loop="false" x="37" y="30"/>
+	<anim name="firstDeath" anim="bf gameover" fps="24" loop="false" x="37" y="30"/>
+</character>

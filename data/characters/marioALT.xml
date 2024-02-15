@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-70" y="30" holdTime="6.1" camy="90" icon="mario" color="#C72700" sprite="Maeroe_ALT">
+	<anim name="idle" anim="Mario Idle" fps="24" loop="false" x="0" y="0"/>
+	<anim name="singLEFT" anim="Mario LeftALT" fps="24" loop="false" x="182" y="87"/>
+	<anim name="singDOWN" anim="Mario DownALT" fps="24" loop="false" x="38" y="-58"/>
+	<anim name="singUP" anim="Mario UpALT" fps="24" loop="false" x="185" y="370"/>
+	<anim name="singRIGHT" anim="Mario RightALT" fps="24" loop="false" x="125" y="95"/>
+</character>

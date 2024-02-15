@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-820" y="-620" camx="-187" camy="70" color="#000000" antialiasing="true" sprite="Gilbert">
+	<anim name="idle" anim="gilbert idle" fps="24" loop="true" x="0" y="0"/>
+	<anim name="singDOWN" anim="gilbert down" fps="24" loop="false" x="0" y="0"/>
+	<anim name="singUP" anim="gilbert up" fps="24" loop="false" x="0" y="0"/>
+	<anim name="singLEFT" anim="gilbert left" fps="24" loop="false" x="0" y="0"/>
+	<anim name="singRIGHT" anim="gilbert right" fps="24" loop="false" x="0" y="0"/>
+</character>

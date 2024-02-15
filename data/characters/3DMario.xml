@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-250" y="-100" holdTime="6.1" camx="90" camy="230" icon="mario" color="#C72700" scale="0.7" sprite="3DMario">
+	<anim name="singLEFT" anim="3DMario left" fps="30" loop="false" x="0" y="0"/>
+	<anim name="singDOWN" anim="3DMario down" fps="30" loop="false" x="-8" y="0"/>
+	<anim name="singUP" anim="3DMario up" fps="30" loop="false" x="-2" y="0"/>
+	<anim name="singRIGHT" anim="3DMario right" fps="30" loop="false" x="0" y="0"/>
+	<anim name="idle" anim="3DMario Idle" fps="24" loop="true" x="0" y="0"/>
+</character>

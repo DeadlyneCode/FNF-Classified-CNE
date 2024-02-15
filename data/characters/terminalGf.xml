@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character isGF="true" x="170" y="180" icon="gf" color="#A5004D" sprite="gfTm">
+	<anim name="idle" anim="gf idle" fps="24" loop="false" x="0" y="-29"/>
+</character>

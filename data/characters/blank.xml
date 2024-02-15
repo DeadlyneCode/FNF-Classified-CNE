@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character x="730" y="110" holdTime="6.1" camx="-210" camy="70" icon="face" color="#A1A1A1" sprite="blank">
+	<anim name="deathLoop" anim="blank balls" fps="24" loop="true" x="0" y="0"/>
+	<anim name="deathConfirm" anim="blank balls" fps="24" loop="false" x="0" y="0"/>
+	<anim name="firstDeath" anim="blank balls" fps="24" loop="false" x="0" y="0"/>
+</character>
