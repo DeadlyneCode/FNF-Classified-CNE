@@ -1,7 +1,3 @@
-function postCreate() {
-	dad.scale.set(0,0);	
-}
-
 function create() {
 
 	remove(dad);
