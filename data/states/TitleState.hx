@@ -33,6 +33,6 @@ function postCreate() {
 
 function update(){
     if  (FlxG.keys.justPressed.ENTER){
-        FlxG.switchState(new ModState ('mainMenuTest'));
+        FlxG.switchState(new ModState ('MainMenu'));
     }
 }
