@@ -10,6 +10,7 @@ Friday Night Funkin' for the new Ultra64!
 And have fun!!! 
 
 ## Credits:
-* Deadlyne - Port
+* Deadlyne - Owner Port
+* Playeah - Helper Port
 * Codename Engine - Engine used
 _____________________________________
