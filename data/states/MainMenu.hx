@@ -1,4 +1,7 @@
+
 function create(){
+    FlxG.mouse.visible = true;
+
     yellowCunFart = new FlxSprite();
     yellowCunFart.loadGraphic(Paths.image("menu/mainmenu/funnyBG"));
     yellowCunFart.screenCenter();
@@ -25,11 +28,25 @@ function create(){
     purplebutton.loadGraphic(Paths.image("menu/mainmenu/Purple1"));
     purplebutton.scale.set(0.150, 0.150);
     add(purplebutton);
+
+    file = new FlxSprite();
+    file.loadGraphic(Paths.image("menu/mainmenu/phile"));
+    file.scale.set(2.8, 2.8);
+    file.updateHitbox();
+    file.screenCenter();
+    file.y = 96;
+    add(file);
+
+
+    FlxG.sound.playMusic(Paths.music("classified_menu"));
 }
 
 function update(){
     if (controls.BACK) {
         FlxG.switchState(new TitleState());
+    }
+    if (FlxG.keys.justPressed.ENTER) {
+        FlxG.switchState(new MainMenuState());
     }
 }
 
