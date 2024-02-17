@@ -1,23 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="bf dies.png">
-	<!-- Created with Adobe Animate version 21.0.0.35450 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="BF diess0000" x="5" y="5" width="412" height="354" frameX="-68" frameY="-122" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0001" x="5" y="5" width="412" height="354" frameX="-68" frameY="-122" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0002" x="419" y="5" width="412" height="354" frameX="-68" frameY="-122" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0003" x="419" y="5" width="412" height="354" frameX="-68" frameY="-122" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0004" x="5" y="5" width="412" height="354" frameX="-68" frameY="-122" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0005" x="5" y="5" width="412" height="354" frameX="-68" frameY="-122" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0006" x="833" y="5" width="412" height="354" frameX="-68" frameY="-122" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0007" x="833" y="5" width="412" height="354" frameX="-68" frameY="-122" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0008" x="5" y="5" width="412" height="354" frameX="-68" frameY="-122" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0009" x="5" y="5" width="412" height="354" frameX="-68" frameY="-122" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0010" x="1247" y="5" width="450" height="671" frameX="0" frameY="0" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0011" x="5" y="678" width="450" height="671" frameX="0" frameY="0" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0012" x="457" y="678" width="450" height="671" frameX="0" frameY="0" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0013" x="909" y="678" width="450" height="671" frameX="0" frameY="0" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0014" x="1361" y="678" width="450" height="671" frameX="0" frameY="0" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0015" x="5" y="1351" width="450" height="671" frameX="0" frameY="0" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0016" x="457" y="1351" width="450" height="671" frameX="0" frameY="0" frameWidth="480" frameHeight="671"/>
-	<SubTexture name="BF diess0017" x="909" y="1351" width="450" height="671" frameX="0" frameY="0" frameWidth="480" frameHeight="671"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="bf dies.png" width="1374" height="1378">
+	<SubTexture name="BF diess0000" x="1" y="1024" width="402" height="353" frameX="-78" frameY="-122" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0001" x="1" y="1024" width="402" height="353" frameX="-78" frameY="-122" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0002" x="406" y="1024" width="402" height="353" frameX="-78" frameY="-122" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0003" x="406" y="1024" width="402" height="353" frameX="-78" frameY="-122" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0004" x="1" y="1024" width="402" height="353" frameX="-78" frameY="-122" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0005" x="1" y="1024" width="402" height="353" frameX="-78" frameY="-122" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0006" x="811" y="973" width="353" height="402" rotated="true" frameX="-78" frameY="-122" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0007" x="811" y="973" width="353" height="402" rotated="true" frameX="-78" frameY="-122" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0008" x="1" y="1024" width="402" height="353" frameX="-78" frameY="-122" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0009" x="1" y="1024" width="402" height="353" frameX="-78" frameY="-122" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0010" x="1" y="628" width="597" height="393" rotated="true" frameX="-38" frameY="-0" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0011" x="601" y="608" width="527" height="362" rotated="true" frameX="-47" frameY="-0" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0012" x="941" y="1" width="322" height="537" frameX="-45" frameY="-33" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0013" x="633" y="1" width="305" height="565" frameX="-47" frameY="-23" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0014" x="345" y="1" width="285" height="604" frameX="-51" frameY="-13" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0015" x="1" y="1" width="341" height="624" frameX="-45" frameY="-13" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0016" x="1266" y="1" width="107" height="291" rotated="true" frameX="-70" frameY="-0" frameWidth="480" frameHeight="671"/>
+	<SubTexture name="BF diess0017" x="1167" y="541" width="74" height="297" rotated="true" frameX="-83" frameY="-6" frameWidth="480" frameHeight="671"/>
 </TextureAtlas>

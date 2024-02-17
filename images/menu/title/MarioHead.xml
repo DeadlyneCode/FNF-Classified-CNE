@@ -1,452 +1,455 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="MarioHead.png">
-<SubTexture name="MarioHead startup0000" x="9593" y="748" width="138" height="40" frameX="-544" frameY="-680" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0001" x="9551" y="940" width="180" height="58" frameX="-523" frameY="-662" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0002" x="9335" y="940" width="216" height="105" frameX="-504" frameY="-615" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0003" x="9335" y="748" width="258" height="192" frameX="-483" frameY="-528" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0004" x="9335" y="416" width="308" height="332" frameX="-458" frameY="-388" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0005" x="2016" y="7868" width="358" height="447" frameX="-432" frameY="-252" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0006" x="2012" y="503" width="395" height="502" frameX="-412" frameY="-164" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0007" x="0" y="0" width="410" height="518" frameX="-403" frameY="-134" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0008" x="410" y="0" width="405" height="510" frameX="-406" frameY="-142" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0009" x="3760" y="4020" width="392" height="491" frameX="-413" frameY="-162" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0010" x="7713" y="470" width="376" height="469" frameX="-422" frameY="-185" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0011" x="7713" y="5484" width="366" height="451" frameX="-428" frameY="-204" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0012" x="5080" y="7868" width="362" height="441" frameX="-430" frameY="-215" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0013" x="7367" y="7868" width="362" height="437" frameX="-430" frameY="-218" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0014" x="8549" y="872" width="362" height="434" frameX="-430" frameY="-220" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0015" x="8549" y="1306" width="364" height="434" frameX="-429" frameY="-219" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0016" x="7729" y="7868" width="365" height="436" frameX="-428" frameY="-215" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0017" x="7000" y="7868" width="367" height="438" frameX="-427" frameY="-210" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0018" x="5442" y="7868" width="368" height="441" frameX="-426" frameY="-204" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0019" x="2374" y="7868" width="370" height="446" frameX="-425" frameY="-196" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0020" x="7713" y="5935" width="371" height="451" frameX="-424" frameY="-188" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0021" x="8104" y="7393" width="373" height="456" frameX="-423" frameY="-180" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0022" x="8104" y="4634" width="374" height="461" frameX="-422" frameY="-172" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0023" x="7713" y="939" width="376" height="468" frameX="-420" frameY="-163" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0024" x="3276" y="6449" width="378" height="473" frameX="-419" frameY="-156" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0025" x="4971" y="4514" width="380" height="479" frameX="-417" frameY="-149" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0026" x="5351" y="970" width="382" height="484" frameX="-415" frameY="-143" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0027" x="4940" y="3919" width="384" height="487" frameX="-414" frameY="-139" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0028" x="4940" y="982" width="386" height="490" frameX="-412" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0029" x="3723" y="2969" width="388" height="492" frameX="-410" frameY="-136" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0030" x="875" y="4020" width="388" height="492" frameX="-409" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0031" x="4119" y="1976" width="390" height="493" frameX="-407" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0032" x="3723" y="1488" width="391" height="494" frameX="-405" frameY="-138" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0033" x="3723" y="1982" width="392" height="494" frameX="-404" frameY="-139" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0034" x="4119" y="2469" width="393" height="493" frameX="-402" frameY="-141" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0035" x="1263" y="4020" width="394" height="492" frameX="-400" frameY="-143" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0036" x="1657" y="4020" width="396" height="492" frameX="-398" frameY="-144" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0037" x="4539" y="0" width="401" height="491" frameX="-394" frameY="-146" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0038" x="4940" y="1472" width="404" height="490" frameX="-391" frameY="-148" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0039" x="4940" y="1962" width="407" height="490" frameX="-388" frameY="-150" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0040" x="4940" y="0" width="411" height="491" frameX="-384" frameY="-151" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0041" x="2053" y="4020" width="414" height="492" frameX="-381" frameY="-152" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0042" x="4119" y="2962" width="416" height="493" frameX="-378" frameY="-153" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0043" x="4119" y="0" width="420" height="494" frameX="-374" frameY="-153" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0044" x="0" y="3525" width="423" height="495" frameX="-371" frameY="-154" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0045" x="423" y="3525" width="426" height="495" frameX="-368" frameY="-155" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0046" x="849" y="3525" width="429" height="495" frameX="-365" frameY="-155" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0047" x="887" y="3028" width="432" height="496" frameX="-361" frameY="-155" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0048" x="2008" y="2529" width="435" height="497" frameX="-358" frameY="-155" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0049" x="2443" y="2529" width="438" height="497" frameX="-355" frameY="-155" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0050" x="3282" y="0" width="441" height="497" frameX="-352" frameY="-155" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0051" x="0" y="3028" width="442" height="497" frameX="-350" frameY="-155" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0052" x="442" y="3028" width="445" height="497" frameX="-347" frameY="-155" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0053" x="1278" y="3525" width="446" height="495" frameX="-345" frameY="-156" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0054" x="1724" y="3525" width="449" height="495" frameX="-342" frameY="-156" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0055" x="0" y="4020" width="450" height="494" frameX="-340" frameY="-156" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0056" x="2467" y="4020" width="452" height="492" frameX="-338" frameY="-157" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0057" x="2919" y="4020" width="452" height="492" frameX="-337" frameY="-157" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0058" x="841" y="4514" width="453" height="489" frameX="-335" frameY="-158" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0059" x="1294" y="4514" width="454" height="487" frameX="-332" frameY="-158" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0060" x="3342" y="4514" width="453" height="485" frameX="-330" frameY="-157" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0061" x="405" y="5489" width="453" height="481" frameX="-327" frameY="-157" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0062" x="0" y="5971" width="450" height="478" frameX="-326" frameY="-156" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0063" x="2023" y="6449" width="447" height="474" frameX="-325" frameY="-155" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0064" x="3563" y="7398" width="446" height="469" frameX="-322" frameY="-154" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0065" x="8104" y="0" width="445" height="464" frameX="-318" frameY="-153" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0066" x="8104" y="6017" width="443" height="459" frameX="-316" frameY="-153" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0067" x="0" y="7868" width="442" height="454" frameX="-313" frameY="-152" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0068" x="442" y="7868" width="439" height="449" frameX="-312" frameY="-151" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0069" x="3888" y="7868" width="436" height="443" frameX="-311" frameY="-151" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0070" x="6567" y="7868" width="433" height="439" frameX="-311" frameY="-150" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0071" x="0" y="8322" width="429" height="435" frameX="-312" frameY="-150" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0072" x="829" y="8322" width="426" height="432" frameX="-313" frameY="-149" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0073" x="2063" y="8322" width="423" height="428" frameX="-314" frameY="-150" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0074" x="3211" y="8322" width="420" height="426" frameX="-316" frameY="-150" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0075" x="8462" y="8322" width="418" height="424" frameX="-317" frameY="-150" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0076" x="414" y="8757" width="417" height="421" frameX="-319" frameY="-151" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0077" x="831" y="8757" width="414" height="421" frameX="-322" frameY="-151" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0078" x="0" y="8757" width="414" height="422" frameX="-325" frameY="-151" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0079" x="5849" y="8322" width="412" height="425" frameX="-331" frameY="-150" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0080" x="1655" y="8322" width="408" height="430" frameX="-340" frameY="-148" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0081" x="8094" y="7868" width="404" height="436" frameX="-350" frameY="-146" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0082" x="5810" y="7868" width="398" height="441" frameX="-363" frameY="-146" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0083" x="2744" y="7868" width="391" height="445" frameX="-376" frameY="-147" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0084" x="881" y="7868" width="384" height="449" frameX="-389" frameY="-149" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0085" x="7713" y="6386" width="377" height="451" frameX="-401" frameY="-153" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0086" x="7713" y="3676" width="372" height="452" frameX="-410" frameY="-158" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0087" x="7713" y="4128" width="370" height="452" frameX="-415" frameY="-164" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0088" x="7713" y="2317" width="370" height="453" frameX="-417" frameY="-170" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0089" x="7713" y="2770" width="373" height="453" frameX="-415" frameY="-176" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0090" x="7713" y="4580" width="377" height="452" frameX="-412" frameY="-183" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0091" x="7713" y="5032" width="382" height="452" frameX="-408" frameY="-189" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0092" x="1265" y="7868" width="387" height="449" frameX="-404" frameY="-197" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0093" x="3135" y="7868" width="392" height="445" frameX="-400" frameY="-205" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0094" x="4324" y="7868" width="396" height="442" frameX="-397" frameY="-212" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0095" x="8549" y="0" width="399" height="436" frameX="-396" frameY="-220" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0096" x="429" y="8322" width="400" height="433" frameX="-396" frameY="-225" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0097" x="1255" y="8322" width="400" height="431" frameX="-398" frameY="-228" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0098" x="8549" y="2606" width="399" height="431" frameX="-402" frameY="-229" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0099" x="8549" y="3037" width="398" height="430" frameX="-406" frameY="-229" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0100" x="8549" y="3897" width="396" height="429" frameX="-412" frameY="-229" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0101" x="8549" y="6471" width="393" height="428" frameX="-419" frameY="-229" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0102" x="3631" y="8322" width="391" height="426" frameX="-426" frameY="-229" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0103" x="8948" y="0" width="387" height="424" frameX="-435" frameY="-228" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0104" x="8948" y="2119" width="383" height="422" frameX="-444" frameY="-227" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0105" x="8948" y="4229" width="379" height="421" frameX="-453" frameY="-225" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0106" x="8948" y="4650" width="374" height="421" frameX="-464" frameY="-221" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0107" x="8948" y="2541" width="369" height="422" frameX="-475" frameY="-217" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0108" x="8948" y="424" width="366" height="424" frameX="-484" frameY="-212" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0109" x="4022" y="8322" width="363" height="426" frameX="-494" frameY="-207" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0110" x="2486" y="8322" width="364" height="427" frameX="-501" frameY="-202" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0111" x="8549" y="4326" width="366" height="429" frameX="-507" frameY="-197" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0112" x="8549" y="4755" width="367" height="429" frameX="-514" frameY="-192" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0113" x="8549" y="5184" width="367" height="429" frameX="-521" frameY="-188" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0114" x="8549" y="5613" width="370" height="429" frameX="-528" frameY="-183" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0115" x="8549" y="6899" width="373" height="428" frameX="-534" frameY="-179" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0116" x="8549" y="7327" width="375" height="428" frameX="-541" frameY="-175" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0117" x="4385" y="8322" width="379" height="426" frameX="-546" frameY="-172" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0118" x="6261" y="8322" width="383" height="425" frameX="-550" frameY="-168" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0119" x="8948" y="2963" width="385" height="422" frameX="-555" frameY="-165" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0120" x="1245" y="8757" width="388" height="421" frameX="-558" frameY="-161" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0121" x="2418" y="8757" width="391" height="419" frameX="-561" frameY="-158" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0122" x="3610" y="8757" width="393" height="418" frameX="-564" frameY="-155" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0123" x="8426" y="8757" width="395" height="416" frameX="-567" frameY="-151" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0124" x="8821" y="8757" width="397" height="416" frameX="-569" frameY="-148" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0125" x="9335" y="0" width="399" height="416" frameX="-571" frameY="-145" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0126" x="4003" y="8757" width="400" height="418" frameX="-573" frameY="-141" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0127" x="6010" y="8757" width="400" height="417" frameX="-575" frameY="-139" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0128" x="4403" y="8757" width="401" height="418" frameX="-576" frameY="-136" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0129" x="4804" y="8757" width="402" height="418" frameX="-578" frameY="-134" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0130" x="2809" y="8757" width="403" height="419" frameX="-579" frameY="-131" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0131" x="5206" y="8757" width="404" height="418" frameX="-579" frameY="-130" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0132" x="6410" y="8757" width="403" height="417" frameX="-580" frameY="-129" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0133" x="6813" y="8757" width="403" height="417" frameX="-580" frameY="-128" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0134" x="7216" y="8757" width="401" height="417" frameX="-580" frameY="-126" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0135" x="0" y="9179" width="403" height="416" frameX="-579" frameY="-125" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0136" x="403" y="9179" width="404" height="416" frameX="-579" frameY="-124" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0137" x="807" y="9179" width="406" height="416" frameX="-578" frameY="-123" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0138" x="7617" y="8757" width="407" height="417" frameX="-577" frameY="-122" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0139" x="1213" y="9179" width="407" height="416" frameX="-576" frameY="-122" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0140" x="1620" y="9179" width="407" height="416" frameX="-575" frameY="-122" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0141" x="2027" y="9179" width="407" height="416" frameX="-573" frameY="-121" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0142" x="2837" y="9179" width="406" height="415" frameX="-570" frameY="-121" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0143" x="3243" y="9179" width="405" height="415" frameX="-566" frameY="-120" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0144" x="2434" y="9179" width="403" height="416" frameX="-561" frameY="-118" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0145" x="8024" y="8757" width="402" height="417" frameX="-555" frameY="-117" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0146" x="5610" y="8757" width="400" height="418" frameX="-548" frameY="-115" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0147" x="3212" y="8757" width="398" height="419" frameX="-540" frameY="-113" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0148" x="2024" y="8757" width="394" height="420" frameX="-533" frameY="-111" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0149" x="1633" y="8757" width="391" height="421" frameX="-524" frameY="-109" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0150" x="8948" y="3385" width="387" height="422" frameX="-515" frameY="-107" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0151" x="8948" y="3807" width="383" height="422" frameX="-506" frameY="-106" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0152" x="8948" y="1696" width="379" height="423" frameX="-497" frameY="-104" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0153" x="8948" y="848" width="374" height="424" frameX="-488" frameY="-102" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0154" x="8948" y="1272" width="369" height="424" frameX="-479" frameY="-101" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0155" x="6644" y="8322" width="365" height="425" frameX="-470" frameY="-99" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0156" x="7009" y="8322" width="364" height="425" frameX="-461" frameY="-98" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0157" x="7373" y="8322" width="363" height="425" frameX="-452" frameY="-97" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0158" x="7736" y="8322" width="363" height="425" frameX="-443" frameY="-96" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0159" x="8099" y="8322" width="363" height="425" frameX="-435" frameY="-96" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0160" x="4764" y="8322" width="362" height="426" frameX="-428" frameY="-95" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0161" x="5126" y="8322" width="361" height="426" frameX="-421" frameY="-95" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0162" x="5487" y="8322" width="362" height="426" frameX="-414" frameY="-95" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0163" x="2850" y="8322" width="361" height="427" frameX="-408" frameY="-95" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0164" x="8549" y="7755" width="361" height="428" frameX="-402" frameY="-95" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0165" x="8549" y="6042" width="361" height="429" frameX="-396" frameY="-96" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0166" x="8549" y="3467" width="361" height="430" frameX="-391" frameY="-97" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0167" x="8549" y="2174" width="361" height="432" frameX="-385" frameY="-98" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0168" x="8549" y="1740" width="361" height="434" frameX="-380" frameY="-99" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0169" x="8549" y="436" width="360" height="436" frameX="-375" frameY="-101" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0170" x="6208" y="7868" width="359" height="440" frameX="-371" frameY="-102" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0171" x="4720" y="7868" width="360" height="442" frameX="-364" frameY="-104" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0172" x="3527" y="7868" width="361" height="445" frameX="-358" frameY="-106" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0173" x="1652" y="7868" width="364" height="448" frameX="-349" frameY="-108" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0174" x="7713" y="6837" width="367" height="450" frameX="-340" frameY="-111" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0175" x="7713" y="3223" width="372" height="453" frameX="-331" frameY="-113" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0176" x="7713" y="1863" width="376" height="454" frameX="-322" frameY="-116" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0177" x="7713" y="1407" width="381" height="456" frameX="-313" frameY="-119" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0178" x="8104" y="6935" width="384" height="458" frameX="-305" frameY="-122" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0179" x="8104" y="6476" width="387" height="459" frameX="-298" frameY="-125" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0180" x="8104" y="5095" width="390" height="461" frameX="-291" frameY="-128" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0181" x="8104" y="3248" width="392" height="462" frameX="-285" frameY="-131" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0182" x="8104" y="464" width="394" height="464" frameX="-279" frameY="-134" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0183" x="5986" y="7398" width="396" height="465" frameX="-274" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0184" x="6382" y="7398" width="397" height="465" frameX="-270" frameY="-140" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0185" x="6779" y="7398" width="398" height="465" frameX="-267" frameY="-143" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0186" x="7177" y="7398" width="398" height="465" frameX="-265" frameY="-145" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0187" x="8104" y="928" width="398" height="464" frameX="-264" frameY="-148" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0188" x="8104" y="1392" width="398" height="464" frameX="-264" frameY="-150" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0189" x="8104" y="1856" width="399" height="464" frameX="-264" frameY="-152" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0190" x="8104" y="3710" width="398" height="462" frameX="-266" frameY="-155" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0191" x="8104" y="5556" width="398" height="461" frameX="-268" frameY="-157" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0192" x="8104" y="4172" width="397" height="462" frameX="-272" frameY="-159" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0193" x="8104" y="2320" width="397" height="464" frameX="-276" frameY="-161" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0194" x="8104" y="2784" width="396" height="464" frameX="-281" frameY="-164" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0195" x="7575" y="7398" width="396" height="465" frameX="-286" frameY="-166" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0196" x="5591" y="7398" width="395" height="466" frameX="-293" frameY="-167" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0197" x="5197" y="7398" width="394" height="467" frameX="-300" frameY="-169" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0198" x="4009" y="7398" width="394" height="469" frameX="-307" frameY="-169" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0199" x="5928" y="6925" width="393" height="470" frameX="-315" frameY="-170" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0200" x="2382" y="6925" width="392" height="471" frameX="-324" frameY="-171" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0201" x="401" y="6925" width="392" height="472" frameX="-332" frameY="-171" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0202" x="3654" y="6449" width="392" height="473" frameX="-340" frameY="-172" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0203" x="6521" y="1426" width="392" height="474" frameX="-349" frameY="-172" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0204" x="6921" y="3332" width="393" height="475" frameX="-358" frameY="-172" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0205" x="6921" y="3807" width="393" height="475" frameX="-367" frameY="-172" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0206" x="4436" y="5971" width="393" height="476" frameX="-377" frameY="-172" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0207" x="4829" y="5971" width="394" height="476" frameX="-386" frameY="-172" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0208" x="5223" y="5971" width="394" height="476" frameX="-396" frameY="-172" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0209" x="1670" y="5971" width="394" height="477" frameX="-406" frameY="-171" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0210" x="5617" y="5971" width="394" height="476" frameX="-416" frameY="-171" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0211" x="2064" y="5971" width="396" height="477" frameX="-424" frameY="-170" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0212" x="6011" y="5971" width="397" height="476" frameX="-433" frameY="-170" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0213" x="2460" y="5971" width="399" height="477" frameX="-442" frameY="-168" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0214" x="6521" y="0" width="400" height="476" frameX="-450" frameY="-167" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0215" x="6921" y="0" width="402" height="476" frameX="-458" frameY="-164" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0216" x="0" y="6449" width="404" height="476" frameX="-466" frameY="-161" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0217" x="2470" y="6449" width="405" height="474" frameX="-474" frameY="-158" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0218" x="404" y="6449" width="408" height="476" frameX="-481" frameY="-154" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0219" x="450" y="5971" width="409" height="478" frameX="-489" frameY="-151" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0220" x="2430" y="5489" width="411" height="480" frameX="-497" frameY="-148" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0221" x="401" y="5005" width="413" height="483" frameX="-503" frameY="-144" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0222" x="1748" y="4514" width="416" height="486" frameX="-509" frameY="-140" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0223" x="422" y="4514" width="419" height="490" frameX="-514" frameY="-135" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0224" x="0" y="4514" width="422" height="491" frameX="-519" frameY="-132" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0225" x="450" y="4020" width="425" height="494" frameX="-524" frameY="-128" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0226" x="1319" y="3028" width="428" height="496" frameX="-528" frameY="-125" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0227" x="394" y="2529" width="430" height="498" frameX="-533" frameY="-122" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0228" x="2097" y="2029" width="432" height="499" frameX="-537" frameY="-119" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0229" x="0" y="2029" width="433" height="500" frameX="-541" frameY="-117" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0230" x="1272" y="1527" width="435" height="501" frameX="-544" frameY="-115" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0231" x="0" y="1527" width="436" height="502" frameX="-547" frameY="-113" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0232" x="436" y="1527" width="437" height="502" frameX="-550" frameY="-112" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0233" x="1707" y="1527" width="437" height="501" frameX="-552" frameY="-112" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0234" x="2410" y="0" width="437" height="501" frameX="-554" frameY="-112" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0235" x="433" y="2029" width="437" height="500" frameX="-555" frameY="-112" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0236" x="2847" y="0" width="435" height="499" frameX="-556" frameY="-113" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0237" x="870" y="2029" width="434" height="500" frameX="-555" frameY="-113" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0238" x="2847" y="499" width="432" height="499" frameX="-553" frameY="-114" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0239" x="2847" y="998" width="428" height="499" frameX="-551" frameY="-115" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0240" x="2847" y="1497" width="425" height="499" frameX="-547" frameY="-116" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0241" x="3282" y="497" width="420" height="497" frameX="-543" frameY="-118" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0242" x="3282" y="994" width="415" height="497" frameX="-539" frameY="-119" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0243" x="3282" y="1491" width="409" height="497" frameX="-534" frameY="-120" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0244" x="1747" y="3028" width="409" height="496" frameX="-522" frameY="-122" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0245" x="2156" y="3028" width="408" height="496" frameX="-510" frameY="-123" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0246" x="2564" y="3028" width="408" height="496" frameX="-497" frameY="-125" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0247" x="2972" y="3028" width="407" height="496" frameX="-484" frameY="-126" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0248" x="2173" y="3525" width="407" height="495" frameX="-470" frameY="-128" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0249" x="4119" y="494" width="405" height="494" frameX="-457" frameY="-130" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0250" x="2580" y="3525" width="403" height="495" frameX="-444" frameY="-131" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0251" x="2983" y="3525" width="400" height="495" frameX="-432" frameY="-132" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0252" x="4119" y="988" width="399" height="494" frameX="-419" frameY="-134" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0253" x="3383" y="3525" width="398" height="495" frameX="-406" frameY="-135" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0254" x="2881" y="2529" width="398" height="496" frameX="-393" frameY="-135" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0255" x="3723" y="0" width="396" height="496" frameX="-382" frameY="-136" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0256" x="3282" y="1988" width="397" height="497" frameX="-371" frameY="-136" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0257" x="3282" y="2485" width="398" height="497" frameX="-362" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0258" x="824" y="2529" width="397" height="498" frameX="-355" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0259" x="2847" y="1996" width="398" height="499" frameX="-348" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0260" x="1304" y="2029" width="398" height="500" frameX="-344" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0261" x="2410" y="501" width="398" height="501" frameX="-341" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0262" x="2410" y="1002" width="398" height="501" frameX="-340" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0263" x="873" y="1527" width="399" height="502" frameX="-340" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0264" x="1198" y="1023" width="398" height="503" frameX="-341" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0265" x="1613" y="0" width="399" height="503" frameX="-342" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0266" x="798" y="518" width="399" height="504" frameX="-344" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0267" x="1214" y="0" width="399" height="504" frameX="-346" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0268" x="1214" y="504" width="399" height="504" frameX="-349" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0269" x="815" y="0" width="399" height="505" frameX="-352" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0270" x="0" y="518" width="399" height="505" frameX="-356" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0271" x="0" y="1023" width="400" height="504" frameX="-359" frameY="-138" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0272" x="399" y="518" width="399" height="505" frameX="-364" frameY="-138" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0273" x="400" y="1023" width="399" height="504" frameX="-368" frameY="-139" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0274" x="799" y="1023" width="399" height="504" frameX="-373" frameY="-139" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0275" x="1613" y="503" width="399" height="503" frameX="-378" frameY="-140" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0276" x="1613" y="1006" width="399" height="503" frameX="-383" frameY="-140" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0277" x="2012" y="0" width="398" height="503" frameX="-389" frameY="-141" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0278" x="2012" y="1005" width="397" height="502" frameX="-395" frameY="-142" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0279" x="2410" y="1503" width="396" height="501" frameX="-401" frameY="-143" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0280" x="1702" y="2029" width="395" height="500" frameX="-407" frameY="-144" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0281" x="0" y="2529" width="394" height="499" frameX="-413" frameY="-145" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0282" x="1221" y="2529" width="394" height="498" frameX="-419" frameY="-146" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0283" x="1615" y="2529" width="393" height="498" frameX="-425" frameY="-146" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0284" x="3723" y="496" width="393" height="496" frameX="-431" frameY="-148" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0285" x="3723" y="992" width="392" height="496" frameX="-438" frameY="-148" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0286" x="4119" y="1482" width="391" height="494" frameX="-444" frameY="-150" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0287" x="4119" y="3455" width="391" height="493" frameX="-450" frameY="-151" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0288" x="3723" y="2476" width="390" height="493" frameX="-456" frameY="-151" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0289" x="3371" y="4020" width="389" height="492" frameX="-462" frameY="-152" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0290" x="4940" y="491" width="389" height="491" frameX="-467" frameY="-153" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0291" x="4940" y="2452" width="389" height="490" frameX="-472" frameY="-154" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0292" x="4940" y="2942" width="389" height="489" frameX="-476" frameY="-155" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0293" x="4940" y="3431" width="389" height="488" frameX="-480" frameY="-156" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0294" x="4539" y="491" width="389" height="487" frameX="-484" frameY="-157" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0295" x="4539" y="978" width="388" height="487" frameX="-488" frameY="-157" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0296" x="4539" y="2926" width="388" height="486" frameX="-491" frameY="-158" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0297" x="3795" y="4514" width="389" height="485" frameX="-493" frameY="-159" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0298" x="4184" y="4514" width="389" height="485" frameX="-495" frameY="-159" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0299" x="5351" y="1454" width="389" height="484" frameX="-497" frameY="-160" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0300" x="814" y="5005" width="389" height="483" frameX="-499" frameY="-161" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0301" x="1203" y="5005" width="389" height="483" frameX="-500" frameY="-161" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0302" x="4711" y="5005" width="390" height="482" frameX="-500" frameY="-162" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0303" x="5101" y="5005" width="389" height="482" frameX="-501" frameY="-162" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0304" x="5741" y="0" width="390" height="482" frameX="-500" frameY="-162" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0305" x="5741" y="482" width="390" height="482" frameX="-500" frameY="-163" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0306" x="5741" y="964" width="390" height="482" frameX="-499" frameY="-163" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0307" x="5741" y="3856" width="390" height="481" frameX="-497" frameY="-164" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0308" x="5741" y="4337" width="390" height="481" frameX="-496" frameY="-164" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0309" x="2841" y="5489" width="391" height="480" frameX="-493" frameY="-165" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0310" x="3232" y="5489" width="390" height="480" frameX="-491" frameY="-165" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0311" x="5598" y="5489" width="390" height="479" frameX="-489" frameY="-166" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0312" x="6131" y="0" width="390" height="479" frameX="-486" frameY="-166" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0313" x="6131" y="2395" width="390" height="478" frameX="-483" frameY="-167" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0314" x="6131" y="2873" width="390" height="478" frameX="-480" frameY="-167" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0315" x="2859" y="5971" width="391" height="477" frameX="-476" frameY="-168" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0316" x="6131" y="5263" width="390" height="477" frameX="-473" frameY="-168" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0317" x="3250" y="5971" width="391" height="477" frameX="-469" frameY="-168" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0318" x="6921" y="4282" width="390" height="475" frameX="-466" frameY="-169" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0319" x="6921" y="4757" width="390" height="475" frameX="-462" frameY="-169" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0320" x="6921" y="5232" width="390" height="475" frameX="-459" frameY="-169" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0321" x="6521" y="1900" width="390" height="474" frameX="-455" frameY="-170" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0322" x="6521" y="2374" width="391" height="474" frameX="-451" frameY="-170" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0323" x="6521" y="2848" width="390" height="474" frameX="-448" frameY="-170" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0324" x="6521" y="3322" width="390" height="474" frameX="-445" frameY="-170" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0325" x="4046" y="6449" width="390" height="473" frameX="-441" frameY="-170" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0326" x="4436" y="6449" width="390" height="473" frameX="-438" frameY="-170" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0327" x="4826" y="6449" width="390" height="473" frameX="-435" frameY="-170" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0328" x="5216" y="6449" width="390" height="473" frameX="-433" frameY="-170" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0329" x="7323" y="473" width="390" height="472" frameX="-430" frameY="-170" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0330" x="7323" y="945" width="390" height="472" frameX="-428" frameY="-170" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0331" x="2774" y="6925" width="390" height="471" frameX="-426" frameY="-170" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0332" x="7323" y="1417" width="389" height="472" frameX="-425" frameY="-169" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0333" x="7323" y="1889" width="389" height="472" frameX="-424" frameY="-169" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0334" x="3164" y="6925" width="389" height="471" frameX="-423" frameY="-169" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0335" x="7323" y="2361" width="389" height="472" frameX="-423" frameY="-168" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0336" x="7323" y="2833" width="389" height="472" frameX="-422" frameY="-167" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0337" x="7323" y="3305" width="389" height="472" frameX="-422" frameY="-166" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0338" x="7323" y="3777" width="389" height="472" frameX="-422" frameY="-165" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0339" x="7323" y="4249" width="388" height="472" frameX="-423" frameY="-164" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0340" x="7323" y="4721" width="389" height="472" frameX="-423" frameY="-163" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0341" x="7323" y="5193" width="389" height="472" frameX="-423" frameY="-161" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0342" x="5606" y="6449" width="389" height="473" frameX="-424" frameY="-159" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0343" x="5995" y="6449" width="388" height="473" frameX="-425" frameY="-157" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0344" x="6383" y="6449" width="389" height="473" frameX="-425" frameY="-155" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0345" x="6521" y="3796" width="388" height="474" frameX="-426" frameY="-153" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0346" x="6521" y="4270" width="388" height="474" frameX="-427" frameY="-151" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0347" x="6521" y="4744" width="388" height="474" frameX="-428" frameY="-149" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0348" x="6921" y="5707" width="389" height="475" frameX="-428" frameY="-146" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0349" x="6521" y="476" width="389" height="475" frameX="-429" frameY="-144" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0350" x="6921" y="476" width="389" height="476" frameX="-430" frameY="-141" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0351" x="6921" y="952" width="389" height="476" frameX="-431" frameY="-139" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0352" x="6921" y="1428" width="389" height="476" frameX="-432" frameY="-137" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0353" x="6921" y="1904" width="389" height="476" frameX="-433" frameY="-134" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0354" x="6921" y="2380" width="389" height="476" frameX="-434" frameY="-132" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0355" x="6131" y="3351" width="389" height="478" frameX="-435" frameY="-129" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0356" x="6131" y="3829" width="389" height="478" frameX="-436" frameY="-127" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0357" x="6131" y="4307" width="389" height="478" frameX="-437" frameY="-125" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0358" x="6131" y="479" width="389" height="479" frameX="-438" frameY="-122" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0359" x="6131" y="958" width="388" height="479" frameX="-439" frameY="-120" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0360" x="3622" y="5489" width="388" height="480" frameX="-440" frameY="-118" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0361" x="4010" y="5489" width="388" height="480" frameX="-441" frameY="-116" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0362" x="4398" y="5489" width="388" height="480" frameX="-442" frameY="-115" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0363" x="5741" y="4818" width="388" height="481" frameX="-442" frameY="-113" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0364" x="858" y="5489" width="388" height="481" frameX="-443" frameY="-112" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0365" x="5741" y="1446" width="388" height="482" frameX="-443" frameY="-110" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0366" x="5741" y="1928" width="389" height="482" frameX="-443" frameY="-109" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0367" x="5741" y="2410" width="388" height="482" frameX="-444" frameY="-108" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0368" x="1592" y="5005" width="388" height="483" frameX="-444" frameY="-107" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead startup0369" x="1980" y="5005" width="388" height="483" frameX="-444" frameY="-107" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0000" x="2368" y="5005" width="388" height="483" frameX="-444" frameY="-107" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0001" x="5351" y="1938" width="388" height="484" frameX="-443" frameY="-107" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0002" x="5351" y="2422" width="388" height="484" frameX="-443" frameY="-108" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0003" x="5351" y="2906" width="388" height="484" frameX="-442" frameY="-109" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0004" x="2756" y="5005" width="388" height="483" frameX="-442" frameY="-111" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0005" x="3144" y="5005" width="388" height="483" frameX="-441" frameY="-113" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0006" x="4152" y="4020" width="387" height="483" frameX="-441" frameY="-115" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0007" x="5741" y="2892" width="388" height="482" frameX="-440" frameY="-118" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0008" x="5741" y="3374" width="388" height="482" frameX="-440" frameY="-120" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0009" x="1246" y="5489" width="389" height="481" frameX="-439" frameY="-123" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0010" x="1635" y="5489" width="389" height="481" frameX="-439" frameY="-126" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0011" x="6131" y="1437" width="389" height="479" frameX="-439" frameY="-130" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0012" x="6131" y="1916" width="390" height="479" frameX="-438" frameY="-133" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0013" x="6131" y="4785" width="390" height="478" frameX="-438" frameY="-136" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0014" x="3641" y="5971" width="390" height="477" frameX="-438" frameY="-140" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0015" x="6921" y="2856" width="390" height="476" frameX="-438" frameY="-143" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0016" x="6521" y="951" width="390" height="475" frameX="-438" frameY="-146" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0017" x="6521" y="5218" width="390" height="474" frameX="-438" frameY="-149" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0018" x="6772" y="6449" width="390" height="473" frameX="-438" frameY="-152" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0019" x="6521" y="5692" width="390" height="474" frameX="-438" frameY="-154" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0020" x="7323" y="0" width="390" height="473" frameX="-438" frameY="-156" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0021" x="7323" y="5665" width="390" height="472" frameX="-438" frameY="-159" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0022" x="7323" y="6137" width="388" height="472" frameX="-439" frameY="-161" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0023" x="793" y="6925" width="388" height="472" frameX="-439" frameY="-162" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0024" x="3553" y="6925" width="388" height="471" frameX="-440" frameY="-164" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0025" x="3941" y="6925" width="388" height="471" frameX="-440" frameY="-165" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0026" x="6321" y="6925" width="388" height="470" frameX="-441" frameY="-167" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0027" x="6709" y="6925" width="389" height="470" frameX="-441" frameY="-168" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0028" x="7098" y="6925" width="390" height="470" frameX="-441" frameY="-169" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0029" x="7713" y="0" width="391" height="470" frameX="-441" frameY="-169" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0030" x="0" y="7398" width="392" height="470" frameX="-441" frameY="-169" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0031" x="392" y="7398" width="394" height="470" frameX="-441" frameY="-169" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0032" x="786" y="7398" width="394" height="470" frameX="-442" frameY="-169" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0033" x="1180" y="7398" width="395" height="470" frameX="-442" frameY="-169" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0034" x="1575" y="7398" width="396" height="470" frameX="-442" frameY="-169" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0035" x="4403" y="7398" width="396" height="469" frameX="-443" frameY="-169" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0036" x="1971" y="7398" width="397" height="470" frameX="-443" frameY="-168" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0037" x="4799" y="7398" width="398" height="469" frameX="-443" frameY="-168" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0038" x="2368" y="7398" width="398" height="470" frameX="-444" frameY="-167" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0039" x="2766" y="7398" width="398" height="470" frameX="-444" frameY="-166" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0040" x="3164" y="7398" width="399" height="470" frameX="-444" frameY="-165" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0041" x="4329" y="6925" width="399" height="471" frameX="-445" frameY="-164" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0042" x="4728" y="6925" width="400" height="471" frameX="-445" frameY="-163" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0043" x="5128" y="6925" width="400" height="471" frameX="-445" frameY="-162" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0044" x="5528" y="6925" width="400" height="471" frameX="-446" frameY="-161" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0045" x="1181" y="6925" width="400" height="472" frameX="-446" frameY="-159" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0046" x="1581" y="6925" width="401" height="472" frameX="-446" frameY="-158" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0047" x="1982" y="6925" width="400" height="472" frameX="-447" frameY="-156" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0048" x="0" y="6925" width="401" height="473" frameX="-447" frameY="-154" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0049" x="2875" y="6449" width="401" height="474" frameX="-447" frameY="-152" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0050" x="1217" y="6449" width="402" height="475" frameX="-446" frameY="-150" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0051" x="1619" y="6449" width="404" height="475" frameX="-445" frameY="-148" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0052" x="812" y="6449" width="405" height="476" frameX="-444" frameY="-146" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0053" x="4031" y="5971" width="405" height="477" frameX="-444" frameY="-143" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0054" x="859" y="5971" width="405" height="478" frameX="-444" frameY="-141" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0055" x="1264" y="5971" width="406" height="478" frameX="-443" frameY="-139" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0056" x="4786" y="5489" width="406" height="480" frameX="-443" frameY="-136" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0057" x="5192" y="5489" width="406" height="480" frameX="-443" frameY="-134" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0058" x="2024" y="5489" width="406" height="481" frameX="-443" frameY="-132" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0059" x="0" y="5489" width="405" height="482" frameX="-444" frameY="-129" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0060" x="3532" y="5005" width="403" height="483" frameX="-445" frameY="-127" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0061" x="0" y="5005" width="401" height="484" frameX="-447" frameY="-124" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0062" x="4573" y="4514" width="398" height="485" frameX="-449" frameY="-122" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0063" x="4539" y="3412" width="397" height="486" frameX="-449" frameY="-119" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0064" x="4539" y="3898" width="397" height="486" frameX="-449" frameY="-117" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0065" x="4539" y="1465" width="395" height="487" frameX="-449" frameY="-115" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0066" x="2164" y="4514" width="395" height="486" frameX="-448" frameY="-114" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0067" x="4539" y="1952" width="394" height="487" frameX="-448" frameY="-112" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0068" x="4539" y="2439" width="393" height="487" frameX="-448" frameY="-111" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0069" x="2559" y="4514" width="392" height="486" frameX="-448" frameY="-110" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0070" x="2951" y="4514" width="391" height="486" frameX="-447" frameY="-109" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0071" x="5351" y="0" width="390" height="485" frameX="-447" frameY="-109" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0072" x="5351" y="485" width="389" height="485" frameX="-447" frameY="-108" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0073" x="5351" y="3390" width="389" height="484" frameX="-446" frameY="-108" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0074" x="5351" y="3874" width="389" height="484" frameX="-445" frameY="-107" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0075" x="5351" y="4358" width="388" height="484" frameX="-445" frameY="-107" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0076" x="3935" y="5005" width="388" height="483" frameX="-444" frameY="-107" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0077" x="4323" y="5005" width="388" height="483" frameX="-444" frameY="-107" frameWidth="1280" frameHeight="720" />
-<SubTexture name="MarioHead idle0078" x="1980" y="5005" width="388" height="483" frameX="-444" frameY="-107" frameWidth="1280" frameHeight="720" />
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="MarioHead.png" width="9666" height="8758">
+	<SubTexture name="MarioHead startup0000" x="1" y="1" width="138" height="40" frameX="-544" frameY="-680" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0001" x="139" y="1" width="180" height="58" frameX="-523" frameY="-662" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0002" x="319" y="1" width="216" height="105" frameX="-504" frameY="-615" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0003" x="535" y="1" width="258" height="192" frameX="-483" frameY="-528" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0004" x="793" y="1" width="332" height="308" rotated="true" frameX="-458" frameY="-388" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0005" x="1125" y="1" width="447" height="358" rotated="true" frameX="-432" frameY="-252" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0006" x="6595" y="4621" width="502" height="395" rotated="true" frameX="-412" frameY="-164" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0007" x="7968" y="7024" width="518" height="410" rotated="true" frameX="-403" frameY="-134" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0008" x="6497" y="6611" width="510" height="405" rotated="true" frameX="-406" frameY="-142" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0009" x="6140" y="3831" width="491" height="392" rotated="true" frameX="-413" frameY="-162" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0010" x="4428" y="729" width="469" height="376" rotated="true" frameX="-422" frameY="-185" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0011" x="3812" y="362" width="451" height="366" rotated="true" frameX="-428" frameY="-204" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0012" x="6341" y="1" width="441" height="362" rotated="true" frameX="-430" frameY="-215" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0013" x="6782" y="1" width="437" height="362" rotated="true" frameX="-430" frameY="-218" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0014" x="7219" y="1" width="434" height="362" rotated="true" frameX="-430" frameY="-220" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0015" x="1217" y="360" width="434" height="364" rotated="true" frameX="-429" frameY="-219" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0016" x="2951" y="362" width="436" height="365" rotated="true" frameX="-428" frameY="-215" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0017" x="4692" y="362" width="438" height="367" rotated="true" frameX="-427" frameY="-210" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0018" x="6438" y="363" width="441" height="368" rotated="true" frameX="-426" frameY="-204" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0019" x="7725" y="363" width="446" height="370" rotated="true" frameX="-425" frameY="-196" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0020" x="422" y="722" width="451" height="371" rotated="true" frameX="-424" frameY="-188" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0021" x="1778" y="725" width="456" height="373" rotated="true" frameX="-423" frameY="-180" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0022" x="3115" y="727" width="461" height="374" rotated="true" frameX="-422" frameY="-172" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0023" x="4897" y="729" width="468" height="376" rotated="true" frameX="-420" frameY="-163" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0024" x="6722" y="732" width="473" height="378" rotated="true" frameX="-419" frameY="-156" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0025" x="8465" y="734" width="479" height="380" rotated="true" frameX="-417" frameY="-149" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0026" x="1296" y="1098" width="484" height="382" rotated="true" frameX="-415" frameY="-143" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0027" x="2627" y="1100" width="487" height="384" rotated="true" frameX="-414" frameY="-139" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0028" x="4443" y="1105" width="490" height="386" rotated="true" frameX="-412" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0029" x="6156" y="1495" width="492" height="388" rotated="true" frameX="-410" frameY="-136" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0030" x="6648" y="1497" width="492" height="388" rotated="true" frameX="-409" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0031" x="8518" y="3058" width="493" height="390" rotated="true" frameX="-407" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0032" x="1795" y="3816" width="494" height="391" rotated="true" frameX="-405" frameY="-138" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0033" x="6631" y="3835" width="494" height="392" rotated="true" frameX="-404" frameY="-139" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0034" x="3247" y="4215" width="493" height="393" rotated="true" frameX="-402" frameY="-141" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0035" x="7532" y="4229" width="492" height="394" rotated="true" frameX="-400" frameY="-143" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0036" x="7597" y="4624" width="492" height="396" rotated="true" frameX="-398" frameY="-144" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0037" x="7028" y="6212" width="491" height="401" rotated="true" frameX="-394" frameY="-146" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0038" x="3200" y="6598" width="490" height="404" rotated="true" frameX="-391" frameY="-148" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0039" x="1731" y="6995" width="490" height="407" rotated="true" frameX="-388" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0040" x="7477" y="7022" width="491" height="411" rotated="true" frameX="-384" frameY="-151" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0041" x="1" y="7395" width="492" height="414" rotated="true" frameX="-381" frameY="-152" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0042" x="1833" y="7406" width="493" height="416" rotated="true" frameX="-378" frameY="-153" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0043" x="4147" y="7417" width="494" height="420" rotated="true" frameX="-374" frameY="-153" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0044" x="6483" y="7425" width="495" height="423" rotated="true" frameX="-371" frameY="-154" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0045" x="7472" y="7433" width="495" height="426" rotated="true" frameX="-368" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0046" x="935" y="7817" width="495" height="429" rotated="true" frameX="-365" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0047" x="1928" y="7822" width="496" height="432" rotated="true" frameX="-361" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0048" x="4861" y="7841" width="497" height="435" rotated="true" frameX="-358" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0049" x="1" y="8242" width="497" height="438" rotated="true" frameX="-355" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0050" x="1401" y="8252" width="497" height="441" rotated="true" frameX="-352" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0051" x="1898" y="8254" width="497" height="442" rotated="true" frameX="-350" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0052" x="2854" y="8262" width="497" height="445" rotated="true" frameX="-347" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0053" x="3815" y="8270" width="495" height="446" rotated="true" frameX="-345" frameY="-156" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0054" x="5253" y="8279" width="495" height="449" rotated="true" frameX="-342" frameY="-156" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0055" x="5748" y="8282" width="494" height="450" rotated="true" frameX="-340" frameY="-156" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0056" x="6720" y="8290" width="492" height="452" rotated="true" frameX="-338" frameY="-157" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0057" x="7212" y="8296" width="492" height="452" rotated="true" frameX="-337" frameY="-157" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0058" x="7704" y="8296" width="489" height="453" rotated="true" frameX="-335" frameY="-158" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0059" x="9159" y="8303" width="487" height="454" rotated="true" frameX="-332" frameY="-158" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0060" x="8193" y="8299" width="485" height="453" rotated="true" frameX="-330" frameY="-157" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0061" x="8678" y="8303" width="481" height="453" rotated="true" frameX="-327" frameY="-157" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0062" x="6242" y="8284" width="478" height="450" rotated="true" frameX="-326" frameY="-156" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0063" x="4779" y="8276" width="474" height="447" rotated="true" frameX="-325" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0064" x="4310" y="8273" width="469" height="446" rotated="true" frameX="-322" frameY="-154" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0065" x="3351" y="8267" width="464" height="445" rotated="true" frameX="-318" frameY="-153" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0066" x="2395" y="8258" width="459" height="443" rotated="true" frameX="-316" frameY="-153" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0067" x="947" y="8246" width="454" height="442" rotated="true" frameX="-313" frameY="-152" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0068" x="498" y="8246" width="449" height="439" rotated="true" frameX="-312" frameY="-151" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0069" x="6358" y="7848" width="443" height="436" rotated="true" frameX="-311" frameY="-151" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0070" x="3422" y="7834" width="439" height="433" rotated="true" frameX="-311" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0071" x="1" y="7809" width="435" height="429" rotated="true" frameX="-312" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0072" x="8466" y="7436" width="432" height="426" rotated="true" frameX="-313" frameY="-149" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0073" x="5564" y="7421" width="428" height="423" rotated="true" frameX="-314" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0074" x="4641" y="7419" width="426" height="420" rotated="true" frameX="-316" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0075" x="3233" y="7412" width="424" height="418" rotated="true" frameX="-317" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0076" x="2812" y="7409" width="421" height="417" rotated="true" frameX="-319" frameY="-151" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0077" x="493" y="7397" width="421" height="414" rotated="true" frameX="-322" frameY="-151" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0078" x="914" y="7400" width="422" height="414" rotated="true" frameX="-325" frameY="-151" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0079" x="8486" y="7024" width="425" height="412" rotated="true" frameX="-331" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0080" x="3628" y="7004" width="430" height="408" rotated="true" frameX="-340" frameY="-148" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0081" x="2764" y="6595" width="436" height="404" rotated="true" frameX="-350" frameY="-146" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0082" x="407" y="5388" width="441" height="398" rotated="true" frameX="-363" frameY="-146" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0083" x="899" y="3424" width="445" height="391" rotated="true" frameX="-376" frameY="-147" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0084" x="3114" y="1101" width="449" height="384" rotated="true" frameX="-389" frameY="-149" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0085" x="5819" y="730" width="451" height="377" rotated="true" frameX="-401" frameY="-153" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0086" x="873" y="724" width="452" height="372" rotated="true" frameX="-410" frameY="-158" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0087" x="8171" y="364" width="452" height="370" rotated="true" frameX="-415" frameY="-164" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0088" x="8623" y="364" width="453" height="370" rotated="true" frameX="-417" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0089" x="2234" y="726" width="453" height="373" rotated="true" frameX="-415" frameY="-176" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0090" x="6270" y="731" width="452" height="377" rotated="true" frameX="-412" frameY="-183" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0091" x="844" y="1096" width="452" height="382" rotated="true" frameX="-408" frameY="-189" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0092" x="5416" y="1107" width="449" height="387" rotated="true" frameX="-404" frameY="-197" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0093" x="7125" y="3836" width="445" height="392" rotated="true" frameX="-400" frameY="-205" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0094" x="8089" y="4624" width="442" height="396" rotated="true" frameX="-397" frameY="-212" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0095" x="401" y="5786" width="436" height="399" rotated="true" frameX="-396" frameY="-220" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0096" x="2203" y="5792" width="433" height="400" rotated="true" frameX="-396" frameY="-225" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0097" x="401" y="6185" width="431" height="400" rotated="true" frameX="-398" frameY="-228" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0098" x="837" y="5787" width="431" height="399" rotated="true" frameX="-402" frameY="-229" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0099" x="848" y="5389" width="430" height="398" rotated="true" frameX="-406" frameY="-229" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0100" x="1845" y="4599" width="429" height="396" rotated="true" frameX="-412" frameY="-229" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0101" x="417" y="4204" width="428" height="393" rotated="true" frameX="-419" frameY="-229" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0102" x="4228" y="3435" width="426" height="391" rotated="true" frameX="-426" frameY="-229" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0103" x="5865" y="1108" width="424" height="387" rotated="true" frameX="-435" frameY="-228" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0104" x="422" y="1093" width="422" height="383" rotated="true" frameX="-444" frameY="-227" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0105" x="7195" y="732" width="421" height="379" rotated="true" frameX="-453" frameY="-225" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0106" x="1" y="469" width="421" height="374" rotated="true" frameX="-464" frameY="-221" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0107" x="6879" y="363" width="422" height="369" rotated="true" frameX="-475" frameY="-217" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0108" x="426" y="193" width="366" height="424" frameX="-484" frameY="-212" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0109" x="8505" y="1" width="426" height="363" rotated="true" frameX="-494" frameY="-207" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0110" x="1651" y="361" width="427" height="364" rotated="true" frameX="-501" frameY="-202" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0111" x="4263" y="362" width="429" height="366" rotated="true" frameX="-507" frameY="-197" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0112" x="5130" y="362" width="429" height="367" rotated="true" frameX="-514" frameY="-192" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0113" x="5559" y="362" width="429" height="367" rotated="true" frameX="-521" frameY="-188" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0114" x="9076" y="364" width="429" height="370" rotated="true" frameX="-528" frameY="-183" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0115" x="2687" y="727" width="428" height="373" rotated="true" frameX="-534" frameY="-179" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0116" x="4000" y="728" width="428" height="375" rotated="true" frameX="-541" frameY="-175" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0117" x="7616" y="733" width="426" height="379" rotated="true" frameX="-546" frameY="-172" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0118" x="1780" y="1098" width="425" height="383" rotated="true" frameX="-550" frameY="-168" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0119" x="3563" y="1102" width="422" height="385" rotated="true" frameX="-555" frameY="-165" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0120" x="1" y="843" width="421" height="388" rotated="true" frameX="-558" frameY="-161" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0121" x="1" y="1231" width="419" height="391" rotated="true" frameX="-561" frameY="-158" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0122" x="1" y="1622" width="418" height="393" rotated="true" frameX="-564" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0123" x="1" y="2015" width="416" height="395" rotated="true" frameX="-567" frameY="-151" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0124" x="1" y="2410" width="416" height="397" rotated="true" frameX="-569" frameY="-148" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0125" x="1" y="2807" width="416" height="399" rotated="true" frameX="-571" frameY="-145" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0126" x="1" y="6060" width="400" height="418" frameX="-573" frameY="-141" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0127" x="1" y="5643" width="400" height="417" frameX="-575" frameY="-139" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0128" x="6610" y="6210" width="418" height="401" rotated="true" frameX="-576" frameY="-136" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0129" x="8411" y="6216" width="418" height="402" rotated="true" frameX="-578" frameY="-134" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0130" x="9246" y="6216" width="419" height="403" rotated="true" frameX="-579" frameY="-131" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0131" x="3690" y="6600" width="418" height="404" rotated="true" frameX="-579" frameY="-130" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0132" x="960" y="6587" width="417" height="403" rotated="true" frameX="-580" frameY="-129" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0133" x="1377" y="6590" width="417" height="403" rotated="true" frameX="-580" frameY="-128" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0134" x="7519" y="6215" width="417" height="401" rotated="true" frameX="-580" frameY="-126" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0135" x="1" y="3206" width="416" height="403" rotated="true" frameX="-579" frameY="-125" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0136" x="1" y="4012" width="416" height="404" rotated="true" frameX="-579" frameY="-124" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0137" x="1" y="5227" width="406" height="416" frameX="-578" frameY="-123" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0138" x="1" y="6987" width="417" height="407" rotated="true" frameX="-577" frameY="-122" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0139" x="899" y="6990" width="416" height="407" rotated="true" frameX="-576" frameY="-122" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0140" x="1315" y="6993" width="416" height="407" rotated="true" frameX="-575" frameY="-122" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0141" x="2221" y="6999" width="416" height="407" rotated="true" frameX="-573" frameY="-121" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0142" x="1" y="4821" width="415" height="406" rotated="true" frameX="-570" frameY="-121" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0143" x="1" y="4416" width="415" height="405" rotated="true" frameX="-566" frameY="-120" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0144" x="1" y="3609" width="416" height="403" rotated="true" frameX="-561" frameY="-118" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0145" x="8829" y="6216" width="417" height="402" rotated="true" frameX="-555" frameY="-117" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0146" x="832" y="6186" width="418" height="400" rotated="true" frameX="-548" frameY="-115" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0147" x="2324" y="4996" width="419" height="398" rotated="true" frameX="-540" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0148" x="7112" y="4228" width="420" height="394" rotated="true" frameX="-533" frameY="-111" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0149" x="1374" y="3815" width="421" height="391" rotated="true" frameX="-524" frameY="-109" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0150" x="6289" y="1108" width="422" height="387" rotated="true" frameX="-515" frameY="-107" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0151" x="2205" y="1099" width="422" height="383" rotated="true" frameX="-506" frameY="-106" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0152" x="8042" y="734" width="423" height="379" rotated="true" frameX="-497" frameY="-104" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0153" x="3576" y="728" width="424" height="374" rotated="true" frameX="-488" frameY="-102" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0154" x="7301" y="363" width="424" height="369" rotated="true" frameX="-479" frameY="-101" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0155" x="3387" y="362" width="425" height="365" rotated="true" frameX="-470" frameY="-99" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0156" x="2078" y="361" width="425" height="364" rotated="true" frameX="-461" frameY="-98" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0157" x="8931" y="1" width="425" height="363" rotated="true" frameX="-452" frameY="-97" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0158" x="1" y="106" width="425" height="363" rotated="true" frameX="-443" frameY="-96" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0159" x="792" y="359" width="425" height="363" rotated="true" frameX="-435" frameY="-96" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0160" x="7653" y="1" width="426" height="362" rotated="true" frameX="-428" frameY="-95" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0161" x="2890" y="1" width="426" height="361" rotated="true" frameX="-421" frameY="-95" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0162" x="8079" y="1" width="426" height="362" rotated="true" frameX="-414" frameY="-95" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0163" x="3316" y="1" width="427" height="361" rotated="true" frameX="-408" frameY="-95" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0164" x="3743" y="1" width="428" height="361" rotated="true" frameX="-402" frameY="-95" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0165" x="4171" y="1" width="429" height="361" rotated="true" frameX="-396" frameY="-96" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0166" x="4600" y="1" width="430" height="361" rotated="true" frameX="-391" frameY="-97" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0167" x="5030" y="1" width="432" height="361" rotated="true" frameX="-385" frameY="-98" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0168" x="5462" y="1" width="434" height="361" rotated="true" frameX="-380" frameY="-99" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0169" x="2012" y="1" width="436" height="360" rotated="true" frameX="-375" frameY="-101" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0170" x="1572" y="1" width="440" height="359" rotated="true" frameX="-371" frameY="-102" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0171" x="2448" y="1" width="442" height="360" rotated="true" frameX="-364" frameY="-104" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0172" x="5896" y="1" width="445" height="361" rotated="true" frameX="-358" frameY="-106" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0173" x="2503" y="362" width="448" height="364" rotated="true" frameX="-349" frameY="-108" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0174" x="5988" y="363" width="450" height="367" rotated="true" frameX="-340" frameY="-111" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0175" x="1325" y="725" width="453" height="372" rotated="true" frameX="-331" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0176" x="5365" y="729" width="454" height="376" rotated="true" frameX="-322" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0177" x="8944" y="734" width="456" height="381" rotated="true" frameX="-313" frameY="-119" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0178" x="3985" y="1105" width="458" height="384" rotated="true" frameX="-305" frameY="-122" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0179" x="6711" y="1110" width="459" height="387" rotated="true" frameX="-298" frameY="-125" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0180" x="3270" y="2653" width="461" height="390" rotated="true" frameX="-291" frameY="-128" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0181" x="7570" y="3837" width="462" height="392" rotated="true" frameX="-285" frameY="-131" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0182" x="8024" y="4230" width="464" height="394" rotated="true" frameX="-279" frameY="-134" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0183" x="8531" y="4624" width="465" height="396" rotated="true" frameX="-274" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0184" x="2743" y="4999" width="465" height="397" rotated="true" frameX="-270" frameY="-140" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0185" x="1278" y="5390" width="465" height="398" rotated="true" frameX="-267" frameY="-143" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0186" x="1743" y="5392" width="465" height="398" rotated="true" frameX="-265" frameY="-145" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0187" x="2208" y="5394" width="464" height="398" rotated="true" frameX="-264" frameY="-148" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0188" x="2672" y="5396" width="464" height="398" rotated="true" frameX="-264" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0189" x="1268" y="5788" width="464" height="399" rotated="true" frameX="-264" frameY="-152" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0190" x="3136" y="5398" width="462" height="398" rotated="true" frameX="-266" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0191" x="3598" y="5401" width="461" height="398" rotated="true" frameX="-268" frameY="-157" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0192" x="4195" y="5006" width="462" height="397" rotated="true" frameX="-272" frameY="-159" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0193" x="5143" y="5009" width="464" height="397" rotated="true" frameX="-276" frameY="-161" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0194" x="8996" y="4624" width="464" height="396" rotated="true" frameX="-281" frameY="-164" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0195" x="416" y="4992" width="465" height="396" rotated="true" frameX="-286" frameY="-166" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0196" x="4206" y="4611" width="466" height="395" rotated="true" frameX="-293" frameY="-167" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0197" x="8488" y="4230" width="467" height="394" rotated="true" frameX="-300" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0198" x="8955" y="4230" width="469" height="394" rotated="true" frameX="-307" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0199" x="1319" y="4206" width="470" height="393" rotated="true" frameX="-315" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0200" x="8032" y="3838" width="471" height="392" rotated="true" frameX="-324" frameY="-171" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0201" x="8503" y="3838" width="472" height="392" rotated="true" frameX="-332" frameY="-171" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0202" x="8975" y="3838" width="473" height="392" rotated="true" frameX="-340" frameY="-172" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0203" x="845" y="4206" width="474" height="392" rotated="true" frameX="-349" frameY="-172" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0204" x="2772" y="4211" width="475" height="393" rotated="true" frameX="-358" frameY="-172" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0205" x="3740" y="4216" width="475" height="393" rotated="true" frameX="-367" frameY="-172" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0206" x="4215" y="4218" width="476" height="393" rotated="true" frameX="-377" frameY="-172" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0207" x="416" y="4598" width="476" height="394" rotated="true" frameX="-386" frameY="-172" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0208" x="892" y="4599" width="476" height="394" rotated="true" frameX="-396" frameY="-172" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0209" x="1368" y="4599" width="477" height="394" rotated="true" frameX="-406" frameY="-171" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0210" x="2274" y="4602" width="476" height="394" rotated="true" frameX="-416" frameY="-171" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0211" x="881" y="4993" width="477" height="396" rotated="true" frameX="-424" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0212" x="5607" y="5011" width="476" height="397" rotated="true" frameX="-433" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0213" x="2636" y="5794" width="477" height="399" rotated="true" frameX="-442" frameY="-168" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0214" x="1722" y="6190" width="476" height="400" rotated="true" frameX="-450" frameY="-167" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0215" x="1" y="6585" width="476" height="402" rotated="true" frameX="-458" frameY="-164" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0216" x="4108" y="6603" width="476" height="404" rotated="true" frameX="-466" frameY="-161" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0217" x="7007" y="6613" width="474" height="405" rotated="true" frameX="-474" frameY="-158" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0218" x="4058" y="7007" width="476" height="408" rotated="true" frameX="-481" frameY="-154" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0219" x="5526" y="7012" width="478" height="409" rotated="true" frameX="-489" frameY="-151" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0220" x="6997" y="7018" width="480" height="411" rotated="true" frameX="-497" frameY="-148" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0221" x="8911" y="7025" width="483" height="413" rotated="true" frameX="-503" frameY="-144" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0222" x="2326" y="7406" width="486" height="416" rotated="true" frameX="-509" frameY="-140" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0223" x="3657" y="7415" width="490" height="419" rotated="true" frameX="-514" frameY="-135" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0224" x="5992" y="7425" width="491" height="422" rotated="true" frameX="-519" frameY="-132" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0225" x="6978" y="7429" width="494" height="425" rotated="true" frameX="-524" frameY="-128" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0226" x="8898" y="7438" width="496" height="428" rotated="true" frameX="-528" frameY="-125" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0227" x="1430" y="7822" width="498" height="430" rotated="true" frameX="-533" frameY="-122" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0228" x="2424" y="7826" width="499" height="432" rotated="true" frameX="-537" frameY="-119" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0229" x="3861" y="7837" width="500" height="433" rotated="true" frameX="-541" frameY="-117" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0230" x="5358" y="7844" width="501" height="435" rotated="true" frameX="-544" frameY="-115" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0231" x="6801" y="7854" width="502" height="436" rotated="true" frameX="-547" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0232" x="7303" y="7859" width="502" height="437" rotated="true" frameX="-550" frameY="-112" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0233" x="7805" y="7859" width="501" height="437" rotated="true" frameX="-552" frameY="-112" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0234" x="8306" y="7862" width="501" height="437" rotated="true" frameX="-554" frameY="-112" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0235" x="8807" y="7866" width="500" height="437" rotated="true" frameX="-555" frameY="-112" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0236" x="5859" y="7847" width="499" height="435" rotated="true" frameX="-556" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0237" x="4361" y="7839" width="500" height="434" rotated="true" frameX="-555" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0238" x="2923" y="7830" width="499" height="432" rotated="true" frameX="-553" frameY="-114" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0239" x="436" y="7814" width="499" height="428" rotated="true" frameX="-551" frameY="-115" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0240" x="7967" y="7434" width="499" height="425" rotated="true" frameX="-547" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0241" x="5067" y="7421" width="497" height="420" rotated="true" frameX="-543" frameY="-118" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0242" x="1336" y="7402" width="497" height="415" rotated="true" frameX="-539" frameY="-119" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0243" x="6004" y="7016" width="497" height="409" rotated="true" frameX="-534" frameY="-120" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0244" x="6501" y="7016" width="496" height="409" rotated="true" frameX="-522" frameY="-122" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0245" x="4534" y="7009" width="496" height="408" rotated="true" frameX="-510" frameY="-123" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0246" x="5030" y="7011" width="496" height="408" rotated="true" frameX="-497" frameY="-125" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0247" x="2637" y="6999" width="496" height="407" rotated="true" frameX="-484" frameY="-126" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0248" x="3133" y="7002" width="495" height="407" rotated="true" frameX="-470" frameY="-128" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0249" x="7481" y="6617" width="494" height="405" rotated="true" frameX="-457" frameY="-130" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0250" x="1794" y="6592" width="495" height="403" rotated="true" frameX="-444" frameY="-131" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0251" x="3708" y="6200" width="495" height="400" rotated="true" frameX="-432" frameY="-132" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0252" x="4055" y="5801" width="494" height="399" rotated="true" frameX="-419" frameY="-134" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0253" x="4059" y="5403" width="495" height="398" rotated="true" frameX="-406" frameY="-135" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0254" x="4554" y="5405" width="496" height="398" rotated="true" frameX="-393" frameY="-135" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0255" x="1828" y="4996" width="496" height="396" rotated="true" frameX="-382" frameY="-136" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0256" x="6083" y="5012" width="497" height="397" rotated="true" frameX="-371" frameY="-136" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0257" x="5050" y="5406" width="497" height="398" rotated="true" frameX="-362" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0258" x="6580" y="5016" width="498" height="397" rotated="true" frameX="-355" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0259" x="5547" y="5408" width="499" height="398" rotated="true" frameX="-348" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0260" x="6046" y="5409" width="500" height="398" rotated="true" frameX="-344" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0261" x="6546" y="5413" width="501" height="398" rotated="true" frameX="-341" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0262" x="7047" y="5415" width="501" height="398" rotated="true" frameX="-340" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0263" x="5021" y="5804" width="502" height="399" rotated="true" frameX="-340" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0264" x="7548" y="5418" width="503" height="398" rotated="true" frameX="-341" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0265" x="5523" y="5806" width="503" height="399" rotated="true" frameX="-342" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0266" x="6026" y="5807" width="504" height="399" rotated="true" frameX="-344" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0267" x="6530" y="5811" width="504" height="399" rotated="true" frameX="-346" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0268" x="7034" y="5813" width="504" height="399" rotated="true" frameX="-349" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0269" x="7538" y="5816" width="505" height="399" rotated="true" frameX="-352" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0270" x="8043" y="5816" width="505" height="399" rotated="true" frameX="-356" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0271" x="4203" y="6203" width="504" height="400" rotated="true" frameX="-359" frameY="-138" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0272" x="8548" y="5817" width="505" height="399" rotated="true" frameX="-364" frameY="-138" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0273" x="9053" y="5817" width="504" height="399" rotated="true" frameX="-368" frameY="-139" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0274" x="2198" y="6193" width="504" height="399" rotated="true" frameX="-373" frameY="-139" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0275" x="2702" y="6196" width="503" height="399" rotated="true" frameX="-378" frameY="-140" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0276" x="3205" y="6199" width="503" height="399" rotated="true" frameX="-383" frameY="-140" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0277" x="8051" y="5418" width="503" height="398" rotated="true" frameX="-389" frameY="-141" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0278" x="7078" y="5018" width="502" height="397" rotated="true" frameX="-395" frameY="-142" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0279" x="3208" y="5002" width="501" height="396" rotated="true" frameX="-401" frameY="-143" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0280" x="7097" y="4623" width="500" height="395" rotated="true" frameX="-407" frameY="-144" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0281" x="3220" y="4608" width="499" height="394" rotated="true" frameX="-413" frameY="-145" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0282" x="5158" y="4615" width="498" height="394" rotated="true" frameX="-419" frameY="-146" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0283" x="5631" y="4222" width="498" height="393" rotated="true" frameX="-425" frameY="-146" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0284" x="6129" y="4223" width="496" height="393" rotated="true" frameX="-431" frameY="-148" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0285" x="1789" y="4207" width="496" height="392" rotated="true" frameX="-438" frameY="-148" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0286" x="2289" y="3818" width="494" height="391" rotated="true" frameX="-444" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0287" x="4217" y="3827" width="493" height="391" rotated="true" frameX="-450" frameY="-151" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0288" x="9011" y="3058" width="493" height="390" rotated="true" frameX="-456" frameY="-151" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0289" x="5662" y="2271" width="492" height="389" rotated="true" frameX="-462" frameY="-152" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0290" x="5171" y="2270" width="491" height="389" rotated="true" frameX="-467" frameY="-153" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0291" x="8544" y="2280" width="490" height="389" rotated="true" frameX="-472" frameY="-154" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0292" x="7582" y="2278" width="489" height="389" rotated="true" frameX="-476" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0293" x="9034" y="2280" width="488" height="389" rotated="true" frameX="-480" frameY="-156" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0294" x="5171" y="2659" width="487" height="389" rotated="true" frameX="-484" frameY="-157" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0295" x="7140" y="1500" width="487" height="388" rotated="true" frameX="-488" frameY="-157" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0296" x="7627" y="1501" width="486" height="388" rotated="true" frameX="-491" frameY="-158" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0297" x="4214" y="2267" width="485" height="389" rotated="true" frameX="-493" frameY="-159" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0298" x="4214" y="2656" width="485" height="389" rotated="true" frameX="-495" frameY="-159" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0299" x="1360" y="2646" width="484" height="389" rotated="true" frameX="-497" frameY="-160" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0300" x="6626" y="2273" width="483" height="389" rotated="true" frameX="-499" frameY="-161" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0301" x="3731" y="2655" width="483" height="389" rotated="true" frameX="-500" frameY="-161" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0302" x="417" y="3424" width="482" height="390" rotated="true" frameX="-500" frameY="-162" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0303" x="1844" y="2258" width="482" height="389" rotated="true" frameX="-501" frameY="-162" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0304" x="1344" y="3425" width="482" height="390" rotated="true" frameX="-500" frameY="-162" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0305" x="1826" y="3426" width="482" height="390" rotated="true" frameX="-500" frameY="-163" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0306" x="2308" y="3428" width="482" height="390" rotated="true" frameX="-499" frameY="-163" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0307" x="3747" y="3435" width="481" height="390" rotated="true" frameX="-497" frameY="-164" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0308" x="4654" y="3437" width="481" height="390" rotated="true" frameX="-496" frameY="-164" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0309" x="2783" y="3820" width="480" height="391" rotated="true" frameX="-493" frameY="-165" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0310" x="7560" y="3056" width="480" height="390" rotated="true" frameX="-491" frameY="-165" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0311" x="3268" y="3434" width="479" height="390" rotated="true" frameX="-489" frameY="-166" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0312" x="5135" y="3438" width="479" height="390" rotated="true" frameX="-486" frameY="-166" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0313" x="8040" y="3057" width="478" height="390" rotated="true" frameX="-483" frameY="-167" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0314" x="2790" y="3430" width="478" height="390" rotated="true" frameX="-480" frameY="-167" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0315" x="3263" y="3824" width="477" height="391" rotated="true" frameX="-476" frameY="-168" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0316" x="6133" y="3050" width="477" height="390" rotated="true" frameX="-473" frameY="-168" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0317" x="3740" y="3825" width="477" height="391" rotated="true" frameX="-469" frameY="-168" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0318" x="6610" y="3051" width="475" height="390" rotated="true" frameX="-466" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0319" x="7085" y="3055" width="475" height="390" rotated="true" frameX="-462" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0320" x="5614" y="3439" width="475" height="390" rotated="true" frameX="-459" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0321" x="6089" y="3440" width="474" height="390" rotated="true" frameX="-455" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0322" x="4710" y="3828" width="474" height="391" rotated="true" frameX="-451" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0323" x="6563" y="3441" width="474" height="390" rotated="true" frameX="-448" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0324" x="7037" y="3445" width="474" height="390" rotated="true" frameX="-445" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0325" x="4698" y="3047" width="473" height="390" rotated="true" frameX="-441" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0326" x="7511" y="3446" width="473" height="390" rotated="true" frameX="-438" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0327" x="7984" y="3447" width="473" height="390" rotated="true" frameX="-435" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0328" x="8457" y="3448" width="473" height="390" rotated="true" frameX="-433" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0329" x="4699" y="2657" width="472" height="390" rotated="true" frameX="-430" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0330" x="8930" y="3448" width="472" height="390" rotated="true" frameX="-428" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0331" x="417" y="3814" width="471" height="390" rotated="true" frameX="-426" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0332" x="3276" y="1875" width="472" height="389" rotated="true" frameX="-425" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0333" x="3748" y="1877" width="472" height="389" rotated="true" frameX="-424" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0334" x="417" y="2254" width="471" height="389" rotated="true" frameX="-423" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0335" x="888" y="2256" width="472" height="389" rotated="true" frameX="-423" frameY="-168" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0336" x="2326" y="2260" width="472" height="389" rotated="true" frameX="-422" frameY="-167" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0337" x="2798" y="2262" width="472" height="389" rotated="true" frameX="-422" frameY="-166" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0338" x="3270" y="2264" width="472" height="389" rotated="true" frameX="-422" frameY="-165" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0339" x="8113" y="1502" width="472" height="388" rotated="true" frameX="-423" frameY="-164" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0340" x="3742" y="2266" width="472" height="389" rotated="true" frameX="-423" frameY="-163" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0341" x="4699" y="2268" width="472" height="389" rotated="true" frameX="-423" frameY="-161" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0342" x="7109" y="2277" width="473" height="389" rotated="true" frameX="-424" frameY="-159" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0343" x="8585" y="1503" width="473" height="388" rotated="true" frameX="-425" frameY="-157" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0344" x="8071" y="2279" width="473" height="389" rotated="true" frameX="-425" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0345" x="9058" y="1503" width="474" height="388" rotated="true" frameX="-426" frameY="-153" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0346" x="419" y="1866" width="474" height="388" rotated="true" frameX="-427" frameY="-151" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0347" x="893" y="1868" width="474" height="388" rotated="true" frameX="-428" frameY="-149" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0348" x="1844" y="2647" width="475" height="389" rotated="true" frameX="-428" frameY="-146" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0349" x="2319" y="2649" width="475" height="389" rotated="true" frameX="-429" frameY="-144" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0350" x="2794" y="2651" width="476" height="389" rotated="true" frameX="-430" frameY="-141" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0351" x="5658" y="2660" width="476" height="389" rotated="true" frameX="-431" frameY="-139" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0352" x="6134" y="2661" width="476" height="389" rotated="true" frameX="-432" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0353" x="6610" y="2662" width="476" height="389" rotated="true" frameX="-433" frameY="-134" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0354" x="7086" y="2666" width="476" height="389" rotated="true" frameX="-434" frameY="-132" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0355" x="7562" y="2667" width="478" height="389" rotated="true" frameX="-435" frameY="-129" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0356" x="8040" y="2668" width="478" height="389" rotated="true" frameX="-436" frameY="-127" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0357" x="8518" y="2669" width="478" height="389" rotated="true" frameX="-437" frameY="-125" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0358" x="8996" y="2669" width="479" height="389" rotated="true" frameX="-438" frameY="-122" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0359" x="1367" y="1869" width="479" height="388" rotated="true" frameX="-439" frameY="-120" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0360" x="1846" y="1870" width="480" height="388" rotated="true" frameX="-440" frameY="-118" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0361" x="2326" y="1872" width="480" height="388" rotated="true" frameX="-441" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0362" x="4220" y="1879" width="480" height="388" rotated="true" frameX="-442" frameY="-115" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0363" x="4700" y="1880" width="481" height="388" rotated="true" frameX="-442" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0364" x="5181" y="1882" width="481" height="388" rotated="true" frameX="-443" frameY="-112" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0365" x="5662" y="1883" width="482" height="388" rotated="true" frameX="-443" frameY="-110" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0366" x="887" y="3035" width="482" height="389" rotated="true" frameX="-443" frameY="-109" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0367" x="6144" y="1883" width="482" height="388" rotated="true" frameX="-444" frameY="-108" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0368" x="6626" y="1885" width="483" height="388" rotated="true" frameX="-444" frameY="-107" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead startup0369" x="5673" y="1495" width="483" height="388" rotated="true" frameX="-444" frameY="-107" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0000" x="7170" y="1112" width="483" height="388" rotated="true" frameX="-444" frameY="-107" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0001" x="7653" y="1113" width="484" height="388" rotated="true" frameX="-443" frameY="-107" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0002" x="8137" y="1114" width="484" height="388" rotated="true" frameX="-443" frameY="-108" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0003" x="8621" y="1115" width="484" height="388" rotated="true" frameX="-442" frameY="-109" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0004" x="9105" y="1115" width="483" height="388" rotated="true" frameX="-442" frameY="-111" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0005" x="420" y="1478" width="483" height="388" rotated="true" frameX="-441" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0006" x="4933" y="1105" width="483" height="387" rotated="true" frameX="-441" frameY="-115" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0007" x="903" y="1480" width="482" height="388" rotated="true" frameX="-440" frameY="-118" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0008" x="1385" y="1481" width="482" height="388" rotated="true" frameX="-440" frameY="-120" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0009" x="7109" y="1888" width="481" height="389" rotated="true" frameX="-439" frameY="-123" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0010" x="7590" y="1889" width="481" height="389" rotated="true" frameX="-439" frameY="-126" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0011" x="8071" y="1890" width="479" height="389" rotated="true" frameX="-439" frameY="-130" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0012" x="3268" y="3044" width="479" height="390" rotated="true" frameX="-438" frameY="-133" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0013" x="3747" y="3045" width="478" height="390" rotated="true" frameX="-438" frameY="-136" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0014" x="5171" y="3048" width="477" height="390" rotated="true" frameX="-438" frameY="-140" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0015" x="2318" y="3038" width="476" height="390" rotated="true" frameX="-438" frameY="-143" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0016" x="1369" y="3035" width="475" height="390" rotated="true" frameX="-438" frameY="-146" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0017" x="1844" y="3036" width="474" height="390" rotated="true" frameX="-438" frameY="-149" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0018" x="887" y="2645" width="473" height="390" rotated="true" frameX="-438" frameY="-152" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0019" x="2794" y="3040" width="474" height="390" rotated="true" frameX="-438" frameY="-154" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0020" x="4225" y="3045" width="473" height="390" rotated="true" frameX="-438" frameY="-156" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0021" x="6154" y="2271" width="472" height="390" rotated="true" frameX="-438" frameY="-159" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0022" x="1867" y="1482" width="472" height="388" rotated="true" frameX="-439" frameY="-161" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0023" x="2339" y="1484" width="472" height="388" rotated="true" frameX="-439" frameY="-162" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0024" x="2811" y="1485" width="471" height="388" rotated="true" frameX="-440" frameY="-164" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0025" x="3282" y="1487" width="471" height="388" rotated="true" frameX="-440" frameY="-165" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0026" x="3753" y="1489" width="470" height="388" rotated="true" frameX="-441" frameY="-167" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0027" x="2806" y="1873" width="470" height="389" rotated="true" frameX="-441" frameY="-168" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0028" x="417" y="2643" width="470" height="390" rotated="true" frameX="-441" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0029" x="417" y="3033" width="470" height="391" rotated="true" frameX="-441" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0030" x="5184" y="3829" width="470" height="392" rotated="true" frameX="-441" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0031" x="4691" y="4219" width="470" height="394" rotated="true" frameX="-441" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0032" x="5161" y="4221" width="470" height="394" rotated="true" frameX="-442" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0033" x="2750" y="4604" width="470" height="395" rotated="true" frameX="-442" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0034" x="5656" y="4615" width="470" height="396" rotated="true" frameX="-442" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0035" x="6126" y="4616" width="469" height="396" rotated="true" frameX="-443" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0036" x="1358" y="4993" width="470" height="397" rotated="true" frameX="-443" frameY="-168" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0037" x="7580" y="5020" width="469" height="398" rotated="true" frameX="-443" frameY="-168" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0038" x="8049" y="5020" width="470" height="398" rotated="true" frameX="-444" frameY="-167" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0039" x="8519" y="5020" width="470" height="398" rotated="true" frameX="-444" frameY="-166" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0040" x="8554" y="5418" width="470" height="399" rotated="true" frameX="-444" frameY="-165" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0041" x="9024" y="5418" width="471" height="399" rotated="true" frameX="-445" frameY="-164" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0042" x="1732" y="5790" width="471" height="400" rotated="true" frameX="-445" frameY="-163" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0043" x="3113" y="5796" width="471" height="400" rotated="true" frameX="-445" frameY="-162" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0044" x="3584" y="5799" width="471" height="400" rotated="true" frameX="-446" frameY="-161" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0045" x="4549" y="5803" width="472" height="400" rotated="true" frameX="-446" frameY="-159" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0046" x="4707" y="6203" width="472" height="401" rotated="true" frameX="-446" frameY="-158" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0047" x="1250" y="6187" width="472" height="400" rotated="true" frameX="-447" frameY="-156" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0048" x="5179" y="6205" width="473" height="401" rotated="true" frameX="-447" frameY="-154" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0049" x="5652" y="6206" width="474" height="401" rotated="true" frameX="-447" frameY="-152" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0050" x="7936" y="6215" width="475" height="402" rotated="true" frameX="-446" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0051" x="2289" y="6595" width="475" height="404" rotated="true" frameX="-445" frameY="-148" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0052" x="4584" y="6604" width="476" height="405" rotated="true" frameX="-444" frameY="-146" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0053" x="5060" y="6606" width="477" height="405" rotated="true" frameX="-444" frameY="-143" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0054" x="5537" y="6607" width="478" height="405" rotated="true" frameX="-444" frameY="-141" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0055" x="7975" y="6618" width="478" height="406" rotated="true" frameX="-443" frameY="-139" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0056" x="8453" y="6618" width="480" height="406" rotated="true" frameX="-443" frameY="-136" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0057" x="8933" y="6619" width="480" height="406" rotated="true" frameX="-443" frameY="-134" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0058" x="418" y="6989" width="481" height="406" rotated="true" frameX="-443" frameY="-132" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0059" x="6015" y="6611" width="482" height="405" rotated="true" frameX="-444" frameY="-129" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0060" x="477" y="6586" width="483" height="403" rotated="true" frameX="-445" frameY="-127" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0061" x="6126" y="6210" width="484" height="401" rotated="true" frameX="-447" frameY="-124" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0062" x="8989" y="5020" width="485" height="398" rotated="true" frameX="-449" frameY="-122" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0063" x="3709" y="5004" width="486" height="397" rotated="true" frameX="-449" frameY="-119" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0064" x="4657" y="5008" width="486" height="397" rotated="true" frameX="-449" frameY="-117" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0065" x="3719" y="4609" width="487" height="395" rotated="true" frameX="-449" frameY="-115" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0066" x="4672" y="4613" width="486" height="395" rotated="true" frameX="-448" frameY="-114" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0067" x="6625" y="4227" width="487" height="394" rotated="true" frameX="-448" frameY="-112" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0068" x="2285" y="4209" width="487" height="393" rotated="true" frameX="-448" frameY="-111" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0069" x="5654" y="3830" width="486" height="392" rotated="true" frameX="-448" frameY="-110" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0070" x="888" y="3815" width="486" height="391" rotated="true" frameX="-447" frameY="-109" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0071" x="5648" y="3049" width="485" height="390" rotated="true" frameX="-447" frameY="-109" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0072" x="8550" y="1891" width="485" height="389" rotated="true" frameX="-447" frameY="-108" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0073" x="9035" y="1891" width="484" height="389" rotated="true" frameX="-446" frameY="-108" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0074" x="1360" y="2257" width="484" height="389" rotated="true" frameX="-445" frameY="-107" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0075" x="4223" y="1491" width="484" height="388" rotated="true" frameX="-445" frameY="-107" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0076" x="4707" y="1492" width="483" height="388" rotated="true" frameX="-444" frameY="-107" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0077" x="5190" y="1494" width="483" height="388" rotated="true" frameX="-444" frameY="-107" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="MarioHead idle0078" x="5673" y="1495" width="483" height="388" rotated="true" frameX="-444" frameY="-107" frameWidth="1280" frameHeight="720"/>
 </TextureAtlas>

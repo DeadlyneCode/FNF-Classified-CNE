@@ -1,19 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="Luigi.png">
-	<!-- Created with Adobe Animate version 21.0.0.35450 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="luigi idle0000" x="0" y="0" width="551" height="682" frameX="0" frameY="-9" frameWidth="551" frameHeight="691"/>
-	<SubTexture name="luigi idle0001" x="0" y="0" width="551" height="682" frameX="0" frameY="-9" frameWidth="551" frameHeight="691"/>
-	<SubTexture name="luigi idle0002" x="551" y="0" width="549" height="684" frameX="0" frameY="-7" frameWidth="551" frameHeight="691"/>
-	<SubTexture name="luigi idle0003" x="551" y="0" width="549" height="684" frameX="0" frameY="-7" frameWidth="551" frameHeight="691"/>
-	<SubTexture name="luigi idle0004" x="1100" y="0" width="547" height="691" frameX="0" frameY="0" frameWidth="551" frameHeight="691"/>
-	<SubTexture name="luigi idle0005" x="1100" y="0" width="547" height="691" frameX="0" frameY="0" frameWidth="551" frameHeight="691"/>
-	<SubTexture name="luigi idle0006" x="1647" y="0" width="546" height="691" frameX="-1" frameY="0" frameWidth="551" frameHeight="691"/>
-	<SubTexture name="luigi idle0007" x="1647" y="0" width="546" height="691" frameX="-1" frameY="0" frameWidth="551" frameHeight="691"/>
-	<SubTexture name="luigi idle0008" x="0" y="691" width="545" height="691" frameX="-1" frameY="0" frameWidth="551" frameHeight="691"/>
-	<SubTexture name="luigi idle0009" x="0" y="691" width="545" height="691" frameX="-1" frameY="0" frameWidth="551" frameHeight="691"/>
-	<SubTexture name="luigi idle0010" x="0" y="691" width="545" height="691" frameX="-1" frameY="0" frameWidth="551" frameHeight="691"/>
-	<SubTexture name="luigi idle0011" x="0" y="691" width="545" height="691" frameX="-1" frameY="0" frameWidth="551" frameHeight="691"/>
-	<SubTexture name="luigi idle0012" x="0" y="691" width="545" height="691" frameX="-1" frameY="0" frameWidth="551" frameHeight="691"/>
-	<SubTexture name="luigi idle0013" x="0" y="691" width="545" height="691" frameX="-1" frameY="0" frameWidth="551" frameHeight="691"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="Luigi.png" width="2751" height="693">
+	<SubTexture name="luigi idle0000" x="1" y="1" width="551" height="681" frameX="-0" frameY="-9" frameWidth="551" frameHeight="691"/>
+	<SubTexture name="luigi idle0001" x="1" y="1" width="551" height="681" frameX="-0" frameY="-9" frameWidth="551" frameHeight="691"/>
+	<SubTexture name="luigi idle0002" x="555" y="1" width="549" height="684" frameX="-0" frameY="-7" frameWidth="551" frameHeight="691"/>
+	<SubTexture name="luigi idle0003" x="555" y="1" width="549" height="684" frameX="-0" frameY="-7" frameWidth="551" frameHeight="691"/>
+	<SubTexture name="luigi idle0004" x="1107" y="1" width="547" height="691" frameX="-0" frameY="-0" frameWidth="551" frameHeight="691"/>
+	<SubTexture name="luigi idle0005" x="1107" y="1" width="547" height="691" frameX="-0" frameY="-0" frameWidth="551" frameHeight="691"/>
+	<SubTexture name="luigi idle0006" x="1657" y="1" width="545" height="691" frameX="-1" frameY="-0" frameWidth="551" frameHeight="691"/>
+	<SubTexture name="luigi idle0007" x="1657" y="1" width="545" height="691" frameX="-1" frameY="-0" frameWidth="551" frameHeight="691"/>
+	<SubTexture name="luigi idle0008" x="2205" y="1" width="545" height="691" frameX="-1" frameY="-0" frameWidth="551" frameHeight="691"/>
+	<SubTexture name="luigi idle0009" x="2205" y="1" width="545" height="691" frameX="-1" frameY="-0" frameWidth="551" frameHeight="691"/>
+	<SubTexture name="luigi idle0010" x="2205" y="1" width="545" height="691" frameX="-1" frameY="-0" frameWidth="551" frameHeight="691"/>
+	<SubTexture name="luigi idle0011" x="2205" y="1" width="545" height="691" frameX="-1" frameY="-0" frameWidth="551" frameHeight="691"/>
+	<SubTexture name="luigi idle0012" x="2205" y="1" width="545" height="691" frameX="-1" frameY="-0" frameWidth="551" frameHeight="691"/>
+	<SubTexture name="luigi idle0013" x="2205" y="1" width="545" height="691" frameX="-1" frameY="-0" frameWidth="551" frameHeight="691"/>
 </TextureAtlas>
