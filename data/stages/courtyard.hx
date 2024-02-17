@@ -1,3 +1,15 @@
+var oldtv = new CustomShader('oldTVShader');
+
+function postCreate(){
+    camGame.addShader(oldtv);
+}
+
+var time:Float = 0;
+function update(elapsed:Float) {
+    time += elapsed;
+    oldtv.iTime = time;
+}
+
 function create() {
 
 	remove(dad);
