@@ -1,16 +1,22 @@
-var oldtv = new CustomShader('oldTVShader');
+var oldtv = new CustomShader('WateryShader');
+var camPos:FlxPoint = new FlxPoint(2000, 0);
+var nightSky:FlxSprite;
 
 function postCreate(){
-    camGame.addShader(oldtv);
+	camGame.scroll.set(0, -4500);
+	FlxG.camera.followLerp = 0;
+    //camHUD.addShader(oldtv);
+
+	//camGame.scroll.set(0, -800);
 }
 
-var time:Float = 0;
-function update(elapsed:Float) {
-    time += elapsed;
-    oldtv.iTime = time;
-}
+
+
 
 function create() {
+
+	
+	
 
 	remove(dad);
     remove(gf);
@@ -75,8 +81,11 @@ function create() {
 	depths = new FlxSprite(-1350, -480).loadGraphic(Paths.image("stages/courtyard/ground"));
 	add(depths);
 
+
+
 	foreRocks = new FlxSprite(-1350, -480).loadGraphic(Paths.image("stages/courtyard/frontrocks"));
 	foreRocks.scrollFactor.set(0.8, 0.8);
+
 
 	sky.visible = false;
 	backRock.visible = false;
@@ -86,18 +95,21 @@ function create() {
 	walRocks.visible = false;
 	depths.visible = false;
 	foreRocks.visible = false;
-
+	
 	add(dad);
 	add(wellF);
     add(gf);
     add(boyfriend);
-}
+	
+	}
 
 function stepHit(curStep:Int){
 	switch(curStep){
-		case 1040:
-			dad.animation.play("VoiceLine");
-		case 1055:
+
+		case 12:
+			FlxG.camera.follow(camFollow, null, 0.03);
+		case 908:
+			defaultCamZoom = 0.8;
 			wellF.visible = false;
 			sky.visible = true;
 			backRock.visible = true;
@@ -110,3 +122,9 @@ function stepHit(curStep:Int){
 			gf.visible = false;
 	}
 }
+function postUpdate(elapsed:Float) {
+	var time:Float = 0;
+	time += elapsed;
+	oldtv.iTime = time;
+	
+	}

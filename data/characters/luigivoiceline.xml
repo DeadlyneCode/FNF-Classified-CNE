@@ -1,4 +1,4 @@
 <!DOCTYPE codename-engine-character>
 <character x="-400" icon="icon-luigi" camx="290" y="-730" isGF="false" scale="0.65" camy="420" color="#29B679" isPlayer="false" sprite="LisRealMario">
-	<anim x="-24" loop="false" y="56" fps="24" anim="VoiceLine" name="idle"/>
+	<anim x="-24" loop="false" y="56" fps="24" anim="VoiceLine" name="line"/>
 </character>

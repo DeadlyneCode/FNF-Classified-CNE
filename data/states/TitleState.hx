@@ -1,6 +1,9 @@
 
 
 function postCreate() {
+    CoolUtil.playMusic(null);
+    FlxG.sound.play(Paths.music('freakyMenu'));
+
     bg = new FlxSprite();
     bg.loadGraphic(Paths.image('menu/title/bg'));
     bg.antialiasing = true;

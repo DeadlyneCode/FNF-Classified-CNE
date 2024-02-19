@@ -14,9 +14,10 @@ function create() {
 
 function stepHit(curStep:Int){
 	switch(curStep){
-		case 1039:
+		case 896:
 			change_dad('luigivoiceline');
-		case 1055:
+			dad.playAnim('line');
+		case 908:
 			change_dad('luigiUnderwater');
 			change_bf('L_BF');
 	}
@@ -70,6 +71,7 @@ function change_bf(type:String){
 		iconP1 = new HealthIcon(dad != null ? boyfriend.getIcon() : "face", false);
 		iconP1.cameras = [camHUD];
 		iconP1.y = healthBar.y - (iconP2.height / 2);
+		iconP1.flipX = true;
 		
 		var leftColor:Int = dad != null && dad.iconColor != null && Options.colorHealthBar ? dad.iconColor : 0xFFFF0000;
 		var rightColor:Int = boyfriend != null && boyfriend.iconColor != null && Options.colorHealthBar ? boyfriend.iconColor : 0xFF66FF33;

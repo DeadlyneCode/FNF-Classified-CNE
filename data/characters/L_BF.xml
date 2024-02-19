@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character isPlayer="true" x="160" y="350" camx="340" camy="-390" flipX="true" icon="bf" color="#31B0D1" sprite="L_Boyfriend">
-	<anim name="idle" anim="L BF Idle" fps="24" loop="false" x="-5" y="250"/>
-	<anim name="singLEFT" anim="L BF Left" fps="24" loop="false" x="58" y="273"/>
-	<anim name="singDOWN" anim="L BF Down" fps="24" loop="false" x="19" y="266"/>
-	<anim name="singUP" anim="L BF Up" fps="24" loop="false" x="-96" y="287"/>
-	<anim name="singRIGHT" anim="L BF Right" fps="24" loop="false" x="-156" y="258"/>
+<character x="-160" icon="bf" camx="-340" y="350" isGF="false" camy="-390" color="#31B0D1" flipX="true" isPlayer="true" sprite="L_Boyfriend">
+	<anim x="-5" loop="false" y="250" fps="24" anim="L BF Idle" name="idle"/>
+	<anim x="58" loop="false" y="273" fps="24" anim="L BF Left" name="singLEFT"/>
+	<anim x="19" loop="false" y="266" fps="24" anim="L BF Down" name="singDOWN"/>
+	<anim x="-96" loop="false" y="287" fps="24" anim="L BF Up" name="singUP"/>
+	<anim x="-156" loop="false" y="258" fps="24" anim="L BF Right" name="singRIGHT"/>
 </character>
