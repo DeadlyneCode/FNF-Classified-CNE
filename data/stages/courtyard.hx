@@ -151,8 +151,7 @@ function stepHit(curStep:Int){
 			FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom * 1.5}, 15, {ease: FlxEase.linear});
 			FlxTween.tween(i, {alpha: 0}, 5, {ease: FlxEase.linear});
 			FlxTween.tween(camHUD, {alpha: 0}, 5, {ease: FlxEase.linear});
-			blackScreen.x = -800;
-			blackScreen.y = 300;
+			blackScreen.setPosition(-800, 300);
 		case 1347:
 			FlxTween.tween(blackScreen, {alpha: 1}, 3, {ease: FlxEase.linear});
 			

@@ -36,6 +36,6 @@ function postCreate() {
 
 function update(){
     if  (FlxG.keys.justPressed.ENTER){
-        FlxG.switchState(new ModState ('MainMenu'));
+        FlxG.switchState(new MainMenuState());
     }
 }
