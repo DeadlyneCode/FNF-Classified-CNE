@@ -1,3 +1,5 @@
+
+
 function create() {
 
 	remove(dad);
@@ -10,7 +12,7 @@ function create() {
     dad.y = 100;
     boyfriend.y = -27;
     boyfriend.x = 362;
-
+  camHUD.alpha = 1;
 
 	
 
@@ -18,8 +20,8 @@ function create() {
 }
 
 function onCameraMove(){
-    if (curCameraTarget == 0)
-		FlxTween.tween(strumLine, {alpha: 1}, 0, {ease: FlxEase.quadInOut});
     if (curCameraTarget == 1)
-		FlxTween.tween(strumLine, {alpha: 0}, 0, {ease: FlxEase.quadInOut});
+		  FlxTween.tween(camHUD, {alpha: 1}, 0.1, {ease: FlxEase.quadInOut});
+    if (curCameraTarget == 0)
+		  FlxTween.tween(camHUD, {alpha: 0}, 0.1, {ease: FlxEase.quadInOut});
 }
