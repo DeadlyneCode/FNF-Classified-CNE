@@ -111,7 +111,7 @@ function update(elapsed){
             freeplay.scale.x = lerp(1.2, freeplay.scale.x, 0.95, true);
             freeplay.scale.y = lerp(1.2, freeplay.scale.y, 0.95, true);
 
-            if(FlxG.mouse.justPressed && FunkinSave.getSongHighscore("your-copy", "normal") < 0)
+            if(FlxG.mouse.justPressed && FunkinSave.getSongHighscore("your-copy", "normal").score > 0)
             {
                 FlxG.switchState(new FreeplayState());
             }
