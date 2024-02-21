@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 100,
+	"difficulties": [
+		"NORMAL"
+	],
+	"needsVoices": true,
+	"parsedColor": -7376387,
+	"displayName": "your-copy",
+	"icon": "mario",
+	"name": "your-copy",
+	"color": "#8F71FD",
+	"customValues": {}
+}

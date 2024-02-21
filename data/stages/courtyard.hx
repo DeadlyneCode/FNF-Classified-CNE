@@ -1,13 +1,14 @@
-var oldtv = new CustomShader('WateryShader');
+var oldtv = new CustomShader('VCRDistortion');
+var oldtv2 = new CustomShader('oldTVShader');
 var camPos:FlxPoint = new FlxPoint(2000, 0);
 var nightSky:FlxSprite;
 
 function postCreate(){
-	camGame.scroll.set(0, -4500);
+	camGame.scroll.set(225, -4700);
 	FlxG.camera.followLerp = 0;
-    //camHUD.addShader(oldtv);
+	for  (i in [iconP1, iconP2, healthBarBG, healthBar, scoreTxt, missesTxt, accuracyTxt])
+		i.alpha = 0;
 
-	//camGame.scroll.set(0, -800);
 }
 
 
@@ -22,7 +23,7 @@ function create() {
     remove(gf);
     remove(boyfriend);
 
-	defaultCamZoom = 0.5;
+	defaultCamZoom = 0.8;
 
     dad.x = -330;
     dad.y = 160;
@@ -81,6 +82,13 @@ function create() {
 	depths = new FlxSprite(-1350, -480).loadGraphic(Paths.image("stages/courtyard/ground"));
 	add(depths);
 
+	blackScreen= new FlxSprite(-480, -5050);
+	blackScreen.makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
+	blackScreen.alpha = 1;
+	//blackScreen.cameras = [camHUD];
+
+	
+
 
 
 	foreRocks = new FlxSprite(-1350, -480).loadGraphic(Paths.image("stages/courtyard/frontrocks"));
@@ -100,16 +108,28 @@ function create() {
 	add(wellF);
     add(gf);
     add(boyfriend);
+	add(blackScreen);
+
 	
 	}
 
 function stepHit(curStep:Int){
+	for  (i in [iconP1, iconP2, healthBarBG, healthBar, scoreTxt, missesTxt, accuracyTxt])
+	
 	switch(curStep){
+		case 1:
+			FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom / 1.5}, 5, {ease: FlxEase.quadInOut});
+			FlxTween.tween(i, {alpha: 1}, 1.2, {ease: FlxEase.linear});
+			FlxTween.tween(blackScreen, {alpha: 0}, 1.2, {ease: FlxEase.linear});
 
-		case 12:
+		case 55:
+			FlxG.camera.follow(camFollow, null, 0.01);
+		case 110:
 			FlxG.camera.follow(camFollow, null, 0.03);
+			defaultCamZoom = 0.5;
+			remove(blackScreen);
 		case 908:
-			defaultCamZoom = 0.8;
+			defaultCamZoom = 0.6;
 			wellF.visible = false;
 			sky.visible = true;
 			backRock.visible = true;
@@ -119,12 +139,27 @@ function stepHit(curStep:Int){
 			walRocks.visible = true;
 			depths.visible = true;
 			foreRocks.visible = true;
-			gf.visible = false;
+			remove(gf);
+		case 1241:
+			defaultCamZoom = 0.7;
+		case 1255:
+			defaultCamZoom = 0.8;
+		case 1296:
+			defaultCamZoom = 1.2;
+			add(blackScreen);
+		case 1297:
+			FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom * 1.5}, 15, {ease: FlxEase.linear});
+			FlxTween.tween(i, {alpha: 0}, 5, {ease: FlxEase.linear});
+			FlxTween.tween(camHUD, {alpha: 0}, 5, {ease: FlxEase.linear});
+			blackScreen.x = -800;
+			blackScreen.y = 300;
+		case 1347:
+			FlxTween.tween(blackScreen, {alpha: 1}, 3, {ease: FlxEase.linear});
+			
 	}
 }
 function postUpdate(elapsed:Float) {
 	var time:Float = 0;
 	time += elapsed;
-	oldtv.iTime = time;
 	
 	}

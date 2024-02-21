@@ -43,7 +43,7 @@ function create(){
 
 function update(){
     if (controls.BACK) {
-        FlxG.switchState(new TitleState());
+       FlxG.switchState(new ModState("customState/menu/titleMarioState"));
     }
     if (FlxG.keys.justPressed.ENTER) {
         FlxG.switchState(new MainMenuState());
