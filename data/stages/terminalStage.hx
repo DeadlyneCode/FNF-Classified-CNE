@@ -11,6 +11,7 @@ function create() {
     boyfriend.y = 50;
     boyfriend.x = 600;
 	gf.y = 50;
+	gf.x = 100;
 
 	var sky:FlxSprite = new FlxSprite(-1500, -1000).loadGraphic(Paths.image('stages/terminalStage/Background_Sky'));
 	sky.scrollFactor.set(1, 1);
@@ -74,7 +75,7 @@ function create() {
 	hill2.animation.play('1 Hills_Idle instance');
 	add(hill2);
 
-	var ground:FlxSprite = new FlxSprite('stages/terminalStage/Background_Floor', -950, 400);
+	var ground:FlxSprite = new FlxSprite( -950, 400).loadGraphic(Paths.image('stages/terminalStage/Background_Floor'));
 	ground.scrollFactor.set(1, 1);
 	add(ground);
 
@@ -106,20 +107,20 @@ function create() {
 	blutoad.animation.play('BlueToad_Idle instance');
 	add(blutoad);
 
-	leantoad = new FlxSprite(-370, 800);
+	var leantoad = new FlxSprite(-370, 800);
 	leantoad.scrollFactor.set(0.85, 1);
 	leantoad.frames = Paths.getSparrowAtlas("stages/terminalStage/PurpleToad");
 	leantoad.animation.addByPrefix('PurpleToad_Idle instance', 'PurpleToad_Idle instance', 24, true);
 	leantoad.animation.play('PurpleToad_Idle instance');
 	//whoever named this "lean toad" should die in a fiery car crash
 
-	grentoad = new FlxSprite(150, 800);
+	var grentoad = new FlxSprite(150, 800);
 	grentoad.scrollFactor.set(0.9, 1);
 	grentoad.frames = Paths.getSparrowAtlas("stages/terminalStage/GreenToad");
 	grentoad.animation.addByPrefix('GreenToad_Idle instance', 'GreenToad_Idle instance', 24, true);
 	grentoad.animation.play('GreenToad_Idle instance');
 
-	yeltoad = new FlxSprite(750, 800);
+	var yeltoad = new FlxSprite(750, 800);
 	yeltoad.scrollFactor.set(0.85, 1);
 	yeltoad.frames = Paths.getSparrowAtlas("stages/terminalStage/YellowToad");
 	yeltoad.animation.addByPrefix('YellowToad_Idle instance', 'YellowToad_Idle instance', 24, true);
@@ -131,6 +132,6 @@ function create() {
     add(gf);
     add(boyfriend);
 	add(leantoad);
-	add(greentoad);
+	add(grentoad);
 	add(yeltoad);
 }

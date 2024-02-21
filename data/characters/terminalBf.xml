@@ -1,13 +1,13 @@
 <!DOCTYPE codename-engine-character>
-<character isPlayer="true" y="380" camx="-70" camy="110" flipX="true" icon="speedBoy" color="#31B0D1" scale="0.9" sprite="terminalBf">
-	<anim name="idle" anim="BF idle dance" fps="24" loop="false" x="-5" y="0"/>
-	<anim name="singLEFT" anim="BF NOTE LEFT0" fps="24" loop="false" x="26" y="-8"/>
-	<anim name="singDOWN" anim="BF NOTE DOWN0" fps="24" loop="false" x="48" y="-57"/>
-	<anim name="singUP" anim="BF NOTE UP0" fps="24" loop="false" x="-28" y="323"/>
-	<anim name="singRIGHT" anim="BF NOTE RIGHT0" fps="24" loop="false" x="-24" y="-4"/>
-	<anim name="singLEFTmiss" anim="BF NOTE LEFT MISS" fps="24" loop="false" x="66" y="28"/>
-	<anim name="singDOWNmiss" anim="BF NOTE DOWN MISS" fps="24" loop="false" x="56" y="-23"/>
-	<anim name="singRIGHTmiss" anim="BF NOTE RIGHT MISS" fps="24" loop="false" x="-25" y="37"/>
-	<anim name="hey" anim="BF HEY" fps="24" loop="false" x="-12" y="-1"/>
-	<anim name="singUPmiss" anim="BF NOTE UP misss" fps="24" loop="false" x="-21" y="329"/>
+<character x="0" icon="speedBoy" camx="-70" y="380" isGF="false" scale="0.9" camy="110" color="#31B0D1" flipX="true" isPlayer="true" sprite="terminalBf">
+	<anim x="-5" loop="false" y="0" fps="24" anim="BF idle dance" name="idle"/>
+	<anim x="26" loop="false" y="-8" fps="24" anim="BF NOTE LEFT0" name="singLEFT"/>
+	<anim x="68" loop="false" y="-72" fps="24" anim="BF NOTE DOWN0" name="singDOWN"/>
+	<anim x="-20" loop="false" y="349" fps="24" anim="BF NOTE UP0" name="singUP"/>
+	<anim x="-24" loop="false" y="-4" fps="24" anim="BF NOTE RIGHT0" name="singRIGHT"/>
+	<anim x="66" loop="false" y="28" fps="24" anim="BF NOTE LEFT MISS" name="singLEFTmiss"/>
+	<anim x="60" loop="false" y="-28" fps="24" anim="BF NOTE DOWN MISS" name="singDOWNmiss"/>
+	<anim x="0" loop="false" y="57" fps="24" anim="BF NOTE RIGHT MISS" name="singRIGHTmiss"/>
+	<anim x="-12" loop="false" y="-1" fps="24" anim="BF HEY" name="hey"/>
+	<anim x="-11" loop="false" y="358" fps="24" anim="BF NOTE UP misss" name="singUPmiss"/>
 </character>
