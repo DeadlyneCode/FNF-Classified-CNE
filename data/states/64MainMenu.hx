@@ -67,7 +67,11 @@ function create(){
     add(storyT);
 
     freeplay = new FlxSprite(660, 176);
-    freeplay.loadGraphic(Paths.image("menu/mainmenu/button"));
+    if(FunkinSave.getSongHighscore("your-copy", "normal").score > 0){
+        freeplay.loadGraphic(Paths.image("menu/mainmenu/button"));
+    }
+    else
+        freeplay.loadGraphic(Paths.image("menu/mainmenu/lockedbutton"));
     add(freeplay);
     freeplayT= new FlxText(825, 176, 660, "Freeplay", 24);
     freeplayT.setFormat(Paths.font("Mario64.ttf"), 36, FlxColor.WHITE);
@@ -155,11 +159,20 @@ function update(elapsed){
         
             if(FlxG.mouse.justPressed)
            {
-                FlxG.switchState(new StoryMenuState());
-            }
+            __gen_week();
+            FlxG.switchState(new PlayState());
+
                 }
     else
             story.scale.x = lerp(1, story.scale.x, 0.95, true);
             story.scale.y = lerp(1, story.scale.y, 0.95, true);
-}
+}}
 
+function __gen_week() {
+        name: "c",
+        id: "c",
+        sprite: null,
+        chars: [null, null, null],
+        songs: [{name: "watery-grave", hide: false}, {name: "funhouse", hide: false}, {name: "your-copy", hide: false}],
+        difficulties: ['normal']
+}
