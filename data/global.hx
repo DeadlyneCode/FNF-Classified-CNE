@@ -15,7 +15,7 @@ static var redirectStates:Map<FlxState, String> = [
     TitleState => "64TitleState",
     MainMenuState => "64MainMenu",
     StoryMenuState => "64MainMenu",
-    
+    FreeplayState => "64Freeplay",
 ];
 
 function update(elapsed) {
