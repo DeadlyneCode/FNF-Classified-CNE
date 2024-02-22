@@ -4,7 +4,10 @@ import openfl.system.Capabilities;
 import funkin.backend.utils.NdllUtil;
 import lime.graphics.Image;
 
-
+function new(){
+    window.title =  "FNF : CLASSIFIED - Codename Engine ";
+    window.setIcon(Image.fromBytes(Assets.getBytes(Paths.image('icon')))); 
+}
 
 static var initialized:Bool = false;
 
@@ -13,7 +16,7 @@ static var redirectStates:Map<FlxState, String> = [
     MainMenuState => "64MainMenu",
     
 ];
-window.title =  "FNF : CLASSIFIED";
+
 function update(elapsed) {
     if (FlxG.keys.justPressed.F6)
         NativeAPI.allocConsole();

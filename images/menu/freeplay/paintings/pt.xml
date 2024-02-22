@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pt.png">
+<SubTexture name="pt better-off0000" x="0" y="0" width="3102" height="1340" frameX="0" frameY="-177" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="pt funhouse0000" x="3102" y="0" width="1225" height="925" frameX="-1325" frameY="-290" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="pt scuttlebug0000" x="1024" y="1340" width="934" height="972" frameX="-1456" frameY="-300" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="pt shrouded0000" x="1958" y="1340" width="814" height="793" frameX="-1510" frameY="-364" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="pt watery-grave0000" x="0" y="1340" width="1024" height="1011" frameX="-1407" frameY="-305" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="pt your-copy0000" x="3102" y="925" width="862" height="862" frameX="-1485" frameY="-333" frameWidth="3840" frameHeight="2160" />
+</TextureAtlas>
