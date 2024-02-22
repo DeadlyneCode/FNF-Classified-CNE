@@ -1,23 +1,16 @@
 //i will redo this bcz this is a illegal method -deadlyne
+//this is more clean deadlyne -playeah
 
 import funkin.backend.system.framerate.Framerate;
-import flixel.FlxCamera;
-import flixel.text.FlxTextBorderStyle;
-import flixel.text.FlxTextFormatMarkerPair;
-import flixel.text.FlxTextFormat;
 
-var names:Array<String>=["watery-grave", "funhouse", "your-copy", "shrouded", "scuttlebug", "better-off"];
+
+var names:Array<String>=["watery grave", "funhouse", "your-copy", "shrouded", "scuttlebug", "better-off"];
 var name:Array<FlxText>=[];
 var curSelected = 0;
 
-
-//sob sob ;c aaaaaaaaaaaaaaah why i do thissssss aaaaaaaaaaaaaaa alpha shit mf aaaaaaaaaaaaaaaaaah fart fart aaaaaaaaaaaaaaaaaaaaaaaaaaa
 function create(){
     FlxG.sound.playMusic(null);
     FlxG.sound.playMusic(Paths.music("classified_menu"));
-    uiCamera = new FlxCamera(0, 0, 1280, 720);
-	uiCamera.bgColor = FlxColor.TRANSPARENT;
-	FlxG.cameras.add(uiCamera, false);
 
     paintings = new FlxSprite();
     paintings.frames = Paths.getSparrowAtlas('menu/freeplay/paintings/pt');
@@ -31,7 +24,6 @@ function create(){
     paintings.scale.set(0.35,0.35);
     paintings.screenCenter();
     add(paintings);
-    paintings.cameras = [uiCamera];
 
     bg = new FlxSprite();
     bg.loadGraphic(Paths.image('menu/freeplay/bg/room'));
@@ -40,24 +32,44 @@ function create(){
 	bg.screenCenter();
     bg.scale.set(0.335,0.335);
     add(bg);
-    bg.cameras = [uiCamera];
-    //bg.alpha = 0;
+
+    bf = new FlxSprite();
+    bf.loadGraphic(Paths.image('menu/freeplay/bfAndGf/bf'));
+    bf.antialiasing = true;
+	bf.updateHitbox();
+	bf.screenCenter();
+    bf.scale.set(0.335,0.335);
+    add(bf);
+
+    var randomImage = FlxG.random.int(1, 4);
+    gf = new FlxSprite();
+    gf.loadGraphic(Paths.image('menu/freeplay/bfAndGf/gf'+randomImage));
+    gf.antialiasing = true;
+	gf.updateHitbox();
+	gf.screenCenter();
+    gf.scale.set(0.335,0.335);
+    add(gf);
+
+
+
+    harrow = new FlxSprite();
+    harrow.loadGraphic(Paths.image('menu/freeplay/bg/arrow'));
+    harrow.antialiasing = true;
+	harrow.updateHitbox();
+	harrow.screenCenter();
+    harrow.scale.set(0.335,0.335);
+    add(harrow);
 
     for (i in 0...names.length) {
-        songName = new FlxText(70, 50, 1150, names[i],  40, true);
-        //songName.setFormat(Paths.font("sm64-v2-1.ttf"), 40, 0xFFFFFFFF);
-        songName.alignment = 'center';
-        
+        songName  = new FlxText(325, 50, 660, names[i], 24);
+        songName.setFormat(Paths.font("sm64-v2-1.ttf"), 36, FlxColor.WHITE);
         add(songName);
-        songName.cameras = [uiCamera];
+        songName.alignment = 'center';
         songName.antialiasing = true;
         name.push(songName);
         songName.ID=i;
     }   
-
-    //changePortrait();
 }
-//mf
 
 function update (){
 
@@ -78,6 +90,10 @@ function update (){
                 }
         case 2:
             paintings.animation.play("your-copy");
+            bg.loadGraphic(Paths.image('menu/freeplay/bg/room'));
+            bf.visible = true;
+            gf.visible = true;
+            FlxG.sound.music.volume = 1;
             if (controls.ACCEPT)
                 {
                     PlayState.loadSong("your-copy", "normal");
@@ -85,6 +101,10 @@ function update (){
                 }
         case 3:
             paintings.animation.play("shrouded");
+            bg.loadGraphic(Paths.image("menu/freeplay/bg/roomEvil"));
+            bf.visible = false;
+            gf.visible = false;
+            FlxG.sound.music.volume = 0;
             if (controls.ACCEPT)
                 {
                     PlayState.loadSong("shrouded", "normal");
@@ -92,6 +112,10 @@ function update (){
                 }
         case 4:
             paintings.animation.play("scuttlebug");
+            FlxG.sound.music.volume = 1;
+            bg.loadGraphic(Paths.image('menu/freeplay/bg/room'));
+            bf.visible = true;
+            gf.visible = true;
             if (controls.ACCEPT)
                 {
                     PlayState.loadSong("scuttlebug", "normal");
