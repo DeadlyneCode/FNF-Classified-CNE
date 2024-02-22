@@ -19,6 +19,15 @@ import funkin.savedata.FunkinSave;
 
 trace(FunkinSave.getSongHighscore("your-copy", "normal").score);
 
+var clasified:WeekData = {
+    name: "c",
+    id: "c",
+    sprite: null,
+    chars: [null, null, null],
+    songs: [{name: "watery-grave", hide: false}, {name: "funhouse", hide: false}, {name: "your-copy", hide: false}],
+    difficulties: ['normal']
+};
+
 
 function create(){
     FlxG.mouse.visible = true;
@@ -156,23 +165,12 @@ function update(elapsed){
             {
                 story.scale.x = lerp(1.2, story.scale.x, 0.95, true);
                 story.scale.y = lerp(1.2, story.scale.y, 0.95, true);
-        
             if(FlxG.mouse.justPressed)
            {
-            __gen_week();
+            PlayState.loadWeek(clasified);
             FlxG.switchState(new PlayState());
-
-                }
+            }}
     else
             story.scale.x = lerp(1, story.scale.x, 0.95, true);
             story.scale.y = lerp(1, story.scale.y, 0.95, true);
-}}
-
-function __gen_week() {
-        name: "c",
-        id: "c",
-        sprite: null,
-        chars: [null, null, null],
-        songs: [{name: "watery-grave", hide: false}, {name: "funhouse", hide: false}, {name: "your-copy", hide: false}],
-        difficulties: ['normal']
 }
