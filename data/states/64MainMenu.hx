@@ -165,14 +165,12 @@ function update(elapsed){
             {
                 story.scale.x = lerp(1.2, story.scale.x, 0.95, true);
                 story.scale.y = lerp(1.2, story.scale.y, 0.95, true);
-        
             if(FlxG.mouse.justPressed)
            {
             PlayState.loadWeek(clasified);
             FlxG.switchState(new PlayState());
-
-                }
+            }}
     else
             story.scale.x = lerp(1, story.scale.x, 0.95, true);
             story.scale.y = lerp(1, story.scale.y, 0.95, true);
-}}
+}
