@@ -1,6 +1,5 @@
 var oldtv = new CustomShader('VCRDistortion');
-var oldtv2 = new CustomShader('oldTVShader');
-var camPos:FlxPoint = new FlxPoint(2000, 0);
+var oldtv2 = new CustomShader('tuto');
 var nightSky:FlxSprite;
 
 function postCreate(){
@@ -8,7 +7,7 @@ function postCreate(){
 	FlxG.camera.followLerp = 0;
 	for  (i in [iconP1, iconP2, healthBarBG, healthBar, scoreTxt, missesTxt, accuracyTxt])
 		i.alpha = 0;
-
+	camGame.addShader(oldtv2);
 }
 
 
@@ -160,5 +159,6 @@ function stepHit(curStep:Int){
 function postUpdate(elapsed:Float) {
 	var time:Float = 0;
 	time += elapsed;
+	oldtv2.iTime = time;
 	
 	}
