@@ -1,3 +1,9 @@
+var oldtv2 = new CustomShader('tuto');
+
+function postCreate(){
+	camGame.addShader(oldtv2);
+}
+
 function create() {
 
 	gf.y = 225;
@@ -26,8 +32,9 @@ function create() {
 	legs.scale.set(0.65, 0.65);
 
 	blackScreen= new FlxSprite();
-	blackScreen.makeGraphic(Std.int(FlxG.width * 10), Std.int(FlxG.height * 10), FlxColor.BLACK);
+	blackScreen.makeGraphic(Std.int(FlxG.width * 2.5), Std.int(FlxG.height * 2.5), FlxColor.BLACK);
 	blackScreen.alpha = 0;
+	blackScreen.cameras = [camGame];
 
 	wall = new FlxSprite(0, 135);
 	wall.loadGraphic(Paths.image("stages/warioStage/thetitularhallway"));
