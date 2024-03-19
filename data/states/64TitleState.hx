@@ -1,4 +1,5 @@
-
+var oldtv = new CustomShader('tuto');
+var time:Float = 0;
 
 function postCreate() {
     CoolUtil.playMusic(null);
@@ -31,11 +32,19 @@ function postCreate() {
     mariohead.animation.play('startup', false);
     mariohead.animation.play('idle');
 
+    test = new FlxCamera();
+    FlxG.cameras.add(test, true);
+    test.addShader(oldtv);
 
 }
 
-function update(){
+function update(elapsed){
+
+    time += elapsed;
+    oldtv.iTime = time;
     if  (FlxG.keys.justPressed.ENTER){
         FlxG.switchState(new MainMenuState());
     }
+
+    
 }
