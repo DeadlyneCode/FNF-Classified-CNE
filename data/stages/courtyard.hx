@@ -7,6 +7,7 @@ function postCreate(){
 	FlxG.camera.followLerp = 0;
 	for  (i in [iconP1, iconP2, healthBarBG, healthBar, scoreTxt, missesTxt, accuracyTxt])
 		i.alpha = 0;
+		i.shader = oldtv2;
 	camGame.addShader(oldtv2);
 }
 

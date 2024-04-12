@@ -1,1 +1,0 @@
-Most of these folders should be self-explanitory as Psych and other engines have similar folder systems but this one is slightly different.

@@ -49,3 +49,10 @@ function stepHit(curStep:Int){
             add(light3d);
     }
 }
+
+function onCameraMove(){
+    if (curCameraTarget == 1)
+            event.animSuffix = "";
+    if (curCameraTarget == 0)
+            event.animSuffix = "-alt";
+}

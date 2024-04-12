@@ -1,20 +1,9 @@
-
 import funkin.backend.utils.NativeAPI;
 import openfl.system.Capabilities;
 import funkin.backend.utils.NdllUtil;
 import lime.graphics.Image;
-
-
 import funkin.backend.system.framerate.Framerate;
-import flixel.FlxCamera;
-var oldtv2 = new CustomShader('tuto');
-function create(){
-    
-    uiCamera = new FlxCamera(0, 0, 1280, 720);
-	uiCamera.bgColor = FlxColor.TRANSPARENT;
-	FlxG.cameras.add(uiCamera, false);
-    uiCamera.addShader(oldtv2);
-}
+
 function new(){
     window.title =  "FNF : CLASSIFIED - Codename Engine ";
     window.setIcon(Image.fromBytes(Assets.getBytes(Paths.image('icon')))); 
@@ -47,9 +36,3 @@ function preStateSwitch() {
 			if (FlxG.game._requestedState is redirectState)
 				FlxG.game._requestedState = new ModState(redirectStates.get(redirectState));
 }
-function postUpdate(elapsed:Float) {
-	var time:Float = 0;
-	time += elapsed;
-	oldtv2.iTime = time;
-	
-	}
