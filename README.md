@@ -12,5 +12,7 @@ And have fun!!!
 ## Credits:
 * Deadlyne - Owner Port
 * Playeah - Helper Port
+* NugtaRiko - Helper Port
+* Neo - Optimisation
 * Codename Engine - Engine used
 _____________________________________

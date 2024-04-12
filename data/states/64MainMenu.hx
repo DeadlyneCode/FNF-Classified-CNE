@@ -17,6 +17,9 @@ import flixel.text.FlxTextBorderStyle;
 import funkin.backend.system.framerate.Framerate;
 import funkin.savedata.FunkinSave;
 
+var oldtv = new CustomShader('tuto');
+var time:Float = 0;
+
 trace(FunkinSave.getSongHighscore("your-copy", "normal").score);
 
 var clasified:WeekData = {
@@ -106,6 +109,9 @@ function create(){
 
 function update(elapsed){
 
+    time += elapsed;
+    oldtv.iTime = time;
+
     if (FlxG.keys.justPressed.SEVEN) {
             persistentUpdate = false;
             persistentDraw = true;
@@ -173,4 +179,10 @@ function update(elapsed){
     else
             story.scale.x = lerp(1, story.scale.x, 0.95, true);
             story.scale.y = lerp(1, story.scale.y, 0.95, true);
+}
+
+function postCreate(){
+    test = new FlxCamera();
+    FlxG.cameras.add(test, true);
+    test.addShader(oldtv);
 }

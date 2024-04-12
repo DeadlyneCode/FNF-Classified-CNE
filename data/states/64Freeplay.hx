@@ -7,6 +7,9 @@ import funkin.backend.system.framerate.Framerate;
 var names:Array<String>=["watery grave", "funhouse", "your-copy", "shrouded", "scuttlebug", "better-off"];
 var name:Array<FlxText>=[];
 var curSelected = 0;
+var oldtv = new CustomShader('tuto');
+var time:Float = 0;
+
 
 function create(){
     FlxG.sound.playMusic(null);
@@ -32,6 +35,15 @@ function create(){
 	bg.screenCenter();
     bg.scale.set(0.335,0.335);
     add(bg);
+
+    bgE = new FlxSprite();
+    bgE.loadGraphic(Paths.image("menu/freeplay/bg/roomEvil"));
+    bgE.antialiasing = true;
+	bgE.updateHitbox();
+	bgE.screenCenter();
+    bgE.scale.set(0.335,0.335);
+    add(bgE);
+    bgE.visible = false;
 
     bf = new FlxSprite();
     bf.loadGraphic(Paths.image('menu/freeplay/bfAndGf/bf'));
@@ -69,9 +81,16 @@ function create(){
         name.push(songName);
         songName.ID=i;
     }   
+
+    test = new FlxCamera();
+    FlxG.cameras.add(test, true);
+    test.addShader(oldtv);
 }
 
-function update (){
+function update (elapsed){
+
+        time += elapsed;
+        oldtv.iTime = time;
 
     switch (curSelected){
         case 0:
@@ -90,7 +109,8 @@ function update (){
                 }
         case 2:
             paintings.animation.play("your-copy");
-            bg.loadGraphic(Paths.image('menu/freeplay/bg/room'));
+            bgE.visible = false;
+            bg.visible = true;
             bf.visible = true;
             gf.visible = true;
             FlxG.sound.music.volume = 1;
@@ -101,7 +121,7 @@ function update (){
                 }
         case 3:
             paintings.animation.play("shrouded");
-            bg.loadGraphic(Paths.image("menu/freeplay/bg/roomEvil"));
+            bgE.visible = true;
             bf.visible = false;
             gf.visible = false;
             FlxG.sound.music.volume = 0;
@@ -113,7 +133,8 @@ function update (){
         case 4:
             paintings.animation.play("scuttlebug");
             FlxG.sound.music.volume = 1;
-            bg.loadGraphic(Paths.image('menu/freeplay/bg/room'));
+            bgE.visible = false;
+            bg.visible = true;
             bf.visible = true;
             gf.visible = true;
             if (controls.ACCEPT)
