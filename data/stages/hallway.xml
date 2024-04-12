@@ -1,0 +1,20 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.9" name="hallway" folder="stages/warioStage">
+  <sprite name="background" x="-300"        y="230"  sprite="Hallway"   scale="1.4">
+		<anim name="Hallway idle"    anim="Hallway idle"  fps="30" loop="true" />
+  </sprite>
+    <sprite name="body" x="200"        y="800"  sprite="running bf body"   scale="0.65">
+		<anim name="Bf idle body"    anim="Bf idle body"  fps="45" loop="true" />
+  </sprite>
+    <sprite name="legs" x="200"        y="875"  sprite="running bf shoe"   scale="0.65">
+		<anim name="Bf idle shoe"    anim="Bf idle shoe"  fps="45" loop="true" />
+  </sprite>
+    <dad        x="-25"   y="250"  camxoffset="0" camyoffset="0"/>
+    <boyfriend  x="25" y="275" camxoffset="50" camyoffset="-50"/>
+    <sprite name="wall" x="-550" y="135"  sprite="thetitularhallway"   scale="10"/>
+	<solid name="black" x="-1600" y="-600" width="10000" height="10000" color="0x000000">
+		<property name="scrollFactor.x" type="float" value="0"/>
+		<property name="scrollFactor.y" type="float" value="0"/>
+		<property name="alpha" type="float" value="0.00000000001"/>
+	</solid>
+</stage>
