@@ -1,20 +1,8 @@
 import funkin.backend.utils.DiscordUtil;
-import funkin.backend.scripting.events.DiscordPresenceUpdateEvent;
-import discord_rpc.DiscordRpc;
-import funkin.menus.MainMenuState;
-import funkin.backend.scripting.events.MenuChangeEvent;
-import funkin.backend.scripting.events.NameEvent;
-import funkin.backend.scripting.EventManager;
 import funkin.menus.credits.CreditsMain;
 import funkin.options.OptionsMenu;
 import funkin.editors.EditorPicker;
 import funkin.menus.ModSwitchMenu;
-import flixel.effects.FlxFlicker;
-import flixel.addons.display.FlxBackdrop;
-import funkin.backend.utils.CoolUtil;
-import openfl.text.TextFormat;
-import flixel.text.FlxTextBorderStyle;
-import funkin.backend.system.framerate.Framerate;
 import funkin.savedata.FunkinSave;
 
 var oldtv = new CustomShader('tuto');
@@ -30,7 +18,6 @@ var clasified:WeekData = {
     songs: [{name: "watery-grave", hide: false}, {name: "funhouse", hide: false}, {name: "your-copy", hide: false}],
     difficulties: ['normal']
 };
-
 
 function create(){
     FlxG.mouse.visible = true;
@@ -50,12 +37,10 @@ function create(){
     bluebutton.scale.set(0.150, 0.150);
     add(bluebutton);
 
-
     redbutton = new FlxSprite(250, 25);
     redbutton.loadGraphic(Paths.image("menu/mainmenu/RedStone1"));
     redbutton.scale.set(0.150, 0.150);
     add(redbutton);
-
 
     purplebutton = new FlxSprite(410, 25);
     purplebutton.loadGraphic(Paths.image("menu/mainmenu/Purple1"));
@@ -69,7 +54,6 @@ function create(){
     file.screenCenter();
     file.y = 96;
     add(file);
-
     
     story = new FlxSprite(330, 176);
     story.loadGraphic(Paths.image("menu/mainmenu/button"));
@@ -103,21 +87,32 @@ function create(){
     optionT.setFormat(Paths.font("Mario64.ttf"), 36, FlxColor.WHITE);
     add(optionT);
 
-
     FlxG.sound.playMusic(Paths.music("classified_menu"));
 }
 
-function update(elapsed){
+function handleMouseOverlap(target:FlxSprite, scaleFactor:Float, callback) {
+    if (FlxG.mouse.overlaps(target)) {
+        target.scale.x = lerp(scaleFactor, target.scale.x, 0.95, true);
+        target.scale.y = lerp(scaleFactor, target.scale.y, 0.95, true);
 
+        if (FlxG.mouse.justPressed) {
+            callback();
+        }
+    } else {
+        target.scale.x = lerp(1, target.scale.x, 0.95, true);
+        target.scale.y = lerp(1, target.scale.y, 0.95, true);
+    }
+}
+
+function update(elapsed:Float) {
     time += elapsed;
     oldtv.iTime = time;
 
     if (FlxG.keys.justPressed.SEVEN) {
-            persistentUpdate = false;
-            persistentDraw = true;
-            openSubState(new EditorPicker());
+        persistentUpdate = false;
+        persistentDraw = true;
+        openSubState(new EditorPicker());
     }
-
 
     if (controls.SWITCHMOD) {
         openSubState(new ModSwitchMenu());
@@ -125,60 +120,24 @@ function update(elapsed){
         persistentDraw = true;
     }
 
-    if(FlxG.mouse.overlaps(freeplay))
-        {
-            freeplay.scale.x = lerp(1.2, freeplay.scale.x, 0.95, true);
-            freeplay.scale.y = lerp(1.2, freeplay.scale.y, 0.95, true);
-
-            if(FlxG.mouse.justPressed && FunkinSave.getSongHighscore("your-copy", "normal").score > 0)
-            {
-                FlxG.switchState(new FreeplayState());
-            }
+    handleMouseOverlap(freeplay, 1.2, function() {
+        if (FunkinSave.getSongHighscore("your-copy", "normal").score > 0) {
+            FlxG.switchState(new FreeplayState());
         }
-    else
-        freeplay.scale.x = lerp(1, freeplay.scale.x, 0.95, true);
-        freeplay.scale.y = lerp(1, freeplay.scale.y, 0.95, true);
+    });
 
-    if(FlxG.mouse.overlaps(option))
-        {
-            option.scale.x = lerp(1.2, option.scale.x, 0.95, true);
-            option.scale.y = lerp(1.2, option.scale.y, 0.95, true);
-    
-            if(FlxG.mouse.justPressed)
-            {
-                FlxG.switchState(new OptionsMenu());
-            }
-        }
-    else
-        option.scale.x = lerp(1, option.scale.x, 0.95, true);
-        option.scale.y = lerp(1, option.scale.y, 0.95, true);
-    
-    if(FlxG.mouse.overlaps(credits))
-        {
-            credits.scale.x = lerp(1.2, credits.scale.x, 0.95, true);
-            credits.scale.y = lerp(1.2, credits.scale.y, 0.95, true);
+    handleMouseOverlap(option, 1.2, function() {
+        FlxG.switchState(new OptionsMenu());
+    });
 
-        if(FlxG.mouse.justPressed)
-                {
-                    FlxG.switchState(new OptionsMenu());
-                }
-        }
-    else
-            credits.scale.x = lerp(1, credits.scale.x, 0.95, true);
-            credits.scale.y = lerp(1, credits.scale.y, 0.95, true);
+    handleMouseOverlap(credits, 1.2, function() {
+        FlxG.switchState(new CreditsMain());
+    });
 
-        if(FlxG.mouse.overlaps(story))
-            {
-                story.scale.x = lerp(1.2, story.scale.x, 0.95, true);
-                story.scale.y = lerp(1.2, story.scale.y, 0.95, true);
-            if(FlxG.mouse.justPressed)
-           {
-            PlayState.loadWeek(clasified);
-            FlxG.switchState(new PlayState());
-            }}
-    else
-            story.scale.x = lerp(1, story.scale.x, 0.95, true);
-            story.scale.y = lerp(1, story.scale.y, 0.95, true);
+    handleMouseOverlap(story, 1.2, function() {
+        PlayState.loadWeek(clasified);
+        FlxG.switchState(new PlayState());
+    });
 }
 
 function postCreate(){

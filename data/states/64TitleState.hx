@@ -12,9 +12,6 @@ function postCreate() {
     bg.scale.set(2.5, 2.5);
     add(bg);
 
-
-
-
     pressenter = new FlxSprite(150, 600);
     pressenter.loadGraphic(Paths.image('menu/title/pressenter'));
     pressenter.antialiasing = false;
@@ -39,12 +36,9 @@ function postCreate() {
 }
 
 function update(elapsed){
-
     time += elapsed;
     oldtv.iTime = time;
     if  (FlxG.keys.justPressed.ENTER){
         FlxG.switchState(new MainMenuState());
     }
-
-    
 }
